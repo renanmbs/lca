@@ -74,4 +74,12 @@ h2{
     .searches{
         padding: 20px;
     }
+
+    #players{
+        align-content:center;
+    }
+
+    h2{
+        padding: 8%;
+    }
 }

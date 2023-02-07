@@ -54,5 +54,6 @@ nav a:active{
   
   nav a{
     font-size: small;
+    /* margin: auto 5%; */
   }
 }

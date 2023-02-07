@@ -38,7 +38,7 @@ export class NavBar extends React.Component{
               <li><a href="#players" onClick={this.showPlayers}>Roster</a></li>
               <li><a href="#stats" onClick={this.showStat}>Statistics</a></li>
               <li><a href="#schedule" onClick={this.showSchedule}>Schedule</a></li>
-              <li><a href="#media" onClick={this.showPhotos}>Photos & Videos</a></li>
+              <li><a href="#media" onClick={this.showPhotos}>Media</a></li>
             </ul>
           </nav>
       </div>

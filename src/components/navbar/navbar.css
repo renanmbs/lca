@@ -49,7 +49,7 @@ nav a:active{
 
 @media only screen and (max-width:600px){
   nav img{
-    visibility: none;
+    visibility: hidden;
   }
   
   nav a{

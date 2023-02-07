@@ -46,3 +46,9 @@ nav a:hover{
 nav a:active{
   color: rgba(255,255,255,0.5);
 }
+
+@media only screen and (max-width:600px){
+  nav img{
+    height: 1rem;
+  }
+}

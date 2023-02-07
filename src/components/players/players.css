@@ -46,18 +46,6 @@ h2{
     width: 210px;
 }
 
-.search_players select {
-    /* for Firefox */
-    -moz-appearance: none;
-    /* for Safari, Chrome, Opera */
-    -webkit-appearance: none;
-}
-
-  /* for IE10 */
-.search_players select::-ms-expand {
-    display: none;
-}
-
 .searches input{
     border: none;
     width: 0;
@@ -74,4 +62,16 @@ h2{
 .icon{
     font-size: 3rem;
     color: white;
+}
+
+
+@media only screen and (max-width:600px){
+    .searchBox{
+        height: 8rem;
+        width: 20rem;
+    }
+
+    .searches{
+        padding: 20px;
+    }
 }

@@ -1,0 +1,65 @@
+#players{
+    height: 38vw; 
+    display: flex;
+    align-content:start;
+    justify-content: center;
+}
+
+h2{ 
+    padding: 0;
+    color: white;  
+    text-align: center;
+    font-size: 3rem;
+}
+
+#holster{
+    background-color: rgba(81, 0, 0, 0.88);
+    padding-top: 5%;
+}
+
+.searchBox{
+    background-color: white;
+    height: 8rem;
+    width: 30rem;
+    display: grid;
+    place-items: center;
+    box-shadow: 1px 1px 10px white;
+}
+
+.searches{
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 50px;
+    transition: 0.4s;
+    background-color: rgba(81, 0, 0, 0.88);
+}
+
+.searches:hover{
+    width: 300px;
+}
+
+.searches:active{
+    width: 300px;
+}
+
+.searches:hover input{
+    width: 210px;
+}
+
+.searches input{
+    border: none;
+    width: 0;
+    text-indent: 16px;
+    transition: 0.4s;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    color: #f9f9f9;
+    font-size: 22px;
+    outline: none;
+}
+
+.icon{
+    font-size: 3rem;
+    color: white;
+}

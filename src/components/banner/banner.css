@@ -1,0 +1,24 @@
+#home{
+    min-height: 100vh;
+    background-image: url('./back.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner{
+    text-align: center;
+    border: solid  rgb(102, 0, 0);
+    box-shadow: 2px 2px 5px rgb(102, 0, 0);
+}
+
+h1{
+    padding: 10px;
+    font-size: 7rem;
+    background-color: white;
+    mix-blend-mode: screen;
+    text-shadow: 2px 2px 2px black;
+}

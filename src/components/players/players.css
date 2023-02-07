@@ -76,7 +76,9 @@ h2{
     }
 
     #players{
+        display: flex;
         align-content:center;
+        justify-content: center;
     }
 
     h2{

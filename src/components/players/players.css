@@ -84,4 +84,16 @@ h2{
     h2{
         padding: 8%;
     }
+
+    .searches:hover{
+        width: 200px;
+    }
+    
+    .searches:active{
+        width: 200px;
+    }
+    
+    .searches:hover input{
+        width: 110px;
+    }
 }

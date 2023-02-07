@@ -35,7 +35,7 @@ export class NavBar extends React.Component{
             <ul>
               <li><a href='https://www.maxpreps.com/ut/layton/layton-christian-academy-eagles/soccer/spring/' target="_blank" rel="noopener noreferrer"><img src={logo} alt="Layton Christian Academy's Logo"/></a></li>
               <li><a href='#home' onClick={this.hide}>Home</a></li>
-              <li><a href="#players" onClick={this.showPlayers}>Roster</a></li>
+              <li><a href="#holster" onClick={this.showPlayers}>Roster</a></li>
               <li><a href="#stats" onClick={this.showStat}>Statistics</a></li>
               <li><a href="#schedule" onClick={this.showSchedule}>Schedule</a></li>
               <li><a href="#media" onClick={this.showPhotos}>Media</a></li>

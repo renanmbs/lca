@@ -46,6 +46,10 @@ h2{
     width: 210px;
 }
 
+input::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+
 .searches input{
     border: none;
     width: 0;

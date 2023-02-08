@@ -1,0 +1,80 @@
+.searches{
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 50px;
+    transition: 0.4s;
+    background-color: rgba(81, 0, 0, 0.88);
+}
+
+.searches:hover{
+    width: 27rem;
+}
+
+.searches:active{
+    width: 27rem;
+}
+
+.searches:hover input{
+    width: 20rem;
+}
+
+.searches:hover #look{
+    width: 5rem;
+    display: block;
+}
+
+#look{
+    border: none;
+    width: 0;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    display: none;
+    font-size: 17px;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+.searches input{
+    border: none;
+    width: 0;
+    text-indent: 4px;
+    transition: 0.4s;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    color: #f9f9f9;
+    font-size: 22px;
+    outline: none;
+}
+
+.icon{
+    font-size: 3rem;
+    color: white;
+}
+
+#team_stat{
+    background-color: pink;
+}
+
+#player_stat{
+    background-color: blue;
+}
+
+@media only screen and (max-width:600px){
+    .searches{
+        padding: 20px;
+    }
+
+    .searches:hover{
+        width: 18rem;
+    }
+    
+    .searches:active{
+        width: 18rem;
+    }
+    
+    .searches:hover input{
+        width: 17rem;
+    }
+}

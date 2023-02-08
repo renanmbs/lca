@@ -1,23 +1,30 @@
 import React from 'react';
 import './navbar.css';
 import logo from "./LCA-LOGO.png";
-import { Players } from '../players/players';
+import { Statistics } from '../Statistics/Statistics';
 import { createRoot } from 'react-dom/client';
 
 export class NavBar extends React.Component{
 
   hide(){
     const root = createRoot(document.getElementById('base'));
+    const root2 = createRoot(document.getElementById('team_stat'));
+    const root3 = createRoot(document.getElementById('player_stat'));
     root.unmount();
+    root2.unmount();
+    root3.unmount();
   }
 
   showPlayers(){
-    const root = createRoot(document.getElementById('base'));
-    root.render(<Players/>);
   }
 
   showStat(){
-    //Render stat component
+    const root = createRoot(document.getElementById('base'));
+    const root2 = createRoot(document.getElementById('team_stat'));
+    const root3 = createRoot(document.getElementById('player_stat'));
+    root.render(<Statistics/>);
+    root2.unmount();
+    root3.unmount();
   }
 
   showSchedule(){

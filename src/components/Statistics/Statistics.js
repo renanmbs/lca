@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import "./Statistics.css";
 import { createRoot } from 'react-dom/client';
-import Player_checker from "../info/info_player";
+import Playerchecker from "../info/info_player";
 
 export class Statistics extends React.Component{
     render(){
@@ -12,8 +12,8 @@ export class Statistics extends React.Component{
                 <div id="players">
                     <div className="searchBox">
                         <h3>Search For Player</h3>
-                        <Player_checker />
-                        <Team_button />
+                        <Playerchecker />
+                        <Teambutton />
                     </div>
                 </div>
             </div>
@@ -21,12 +21,12 @@ export class Statistics extends React.Component{
     }
 }
 
-class Team_button extends React.Component{
+class Teambutton extends React.Component{
     show(){
         const root = createRoot(document.getElementById('team_stat'));
         const root2 = createRoot(document.getElementById('player_stat'));
         root2.unmount();
-        root.render(<Team_stats/>);
+        root.render(<Teamstats/>);
     }
 
     render(){
@@ -38,7 +38,7 @@ class Team_button extends React.Component{
     }
 }
 
-class Team_stats extends React.Component{
+class Teamstats extends React.Component{
     render(){
         return(
             <div>

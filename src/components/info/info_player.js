@@ -36,7 +36,7 @@ export default function Player_checker(){
         for(const player_loop in stats){
             if(player_name === stats[player_loop].p_name){
 
-                root.render(<Player_stats player={player_name} src={stats[player_loop].src} goals={stats[player_loop].goals}
+                root.render(<Playerstats player={player_name} src={stats[player_loop].src} goals={stats[player_loop].goals}
                 assists={stats[player_loop].assists} insta={stats[player_loop].insta}/>);
             }
         }
@@ -66,7 +66,7 @@ class Names extends React.Component{
     }
 }
 
-class Player_stats extends React.Component{
+class Playerstats extends React.Component{
     render(){
         return(
             <div id="p_stats">

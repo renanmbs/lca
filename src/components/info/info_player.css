@@ -48,9 +48,10 @@
     outline: none;
 }
 
-.icon{
+.ico{
     font-size: 3rem;
     color: white;
+    background: transparent;
 }
 
 #team_stat{

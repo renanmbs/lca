@@ -2,25 +2,7 @@ import React from "react";
 import { HiSearch } from "react-icons/hi";
 import "./info_player.css";
 import { createRoot } from 'react-dom/client';
-
-let stats = {
-        1:{
-            p_name: "Pacheco",
-            src: "./photos/pacheco.png",
-            goals: 1,
-            assists: 5,
-            insta: "www.instagram.com"
-        },
-
-        2:{
-            p_name: "Davi S",
-            src: "./photos/davi  s.png",
-            goals: 6,
-            assists: 2,
-            insta: "www.google.com"
-        }
-
-    }
+import {stats} from "./stats_object";
 
 export default function Player_checker(){
 
@@ -36,16 +18,15 @@ export default function Player_checker(){
         for(const player_loop in stats){
             if(player_name === stats[player_loop].p_name){
 
-                root.render(<Playerstats player={player_name} src={stats[player_loop].src} goals={stats[player_loop].goals}
+                root.render(<Playerstats player={stats[player_loop].p_name} image={stats[player_loop].image} goals={stats[player_loop].goals}
                 assists={stats[player_loop].assists} insta={stats[player_loop].insta}/>);
             }
         }
-
     }
 
     return(
         <div className="searches">
-            <HiSearch className="icon"/>
+            <HiSearch className="ico"/>
             <input list="search_players" id="search" name="search" placeholder="Name" onChange={checkName}/>
             <Names name={player_names}/>
         </div>
@@ -59,7 +40,7 @@ class Names extends React.Component{
         return(
             <datalist id="search_players">
                 {names.map((name) =>{
-                    return <option value={name}>{name}</option>
+                    return <option key={name} value={name}>{name}</option>
                 })}
             </datalist>
         );
@@ -73,11 +54,7 @@ class Playerstats extends React.Component{
                 <h3>Player Stats</h3>
                 <div id="cont">
                     <div id="area">
-                        <h5>{this.props.src}</h5><br/>
-                        <h5>{this.props.goals}</h5><br/>
-                        <h5>{this.props.assists}</h5><br/>
-                        <h5>{this.props.insta}</h5><br/>
-                        <h5>{this.props.player}</h5><br/>
+                        <img src={this.props.image} alt={this.props.player}/>
                     </div>
                 </div>
             </div>

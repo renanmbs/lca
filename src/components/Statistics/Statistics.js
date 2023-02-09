@@ -11,7 +11,7 @@ export class Statistics extends React.Component{
                 <h2>Statistics</h2>
                 <div id="players">
                     <div className="searchBox">
-                        <h3>Search For Player</h3>
+                        <h3 className="se">Search For Player</h3>
                         <Playerchecker />
                         <Teambutton />
                     </div>

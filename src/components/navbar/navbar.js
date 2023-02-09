@@ -3,6 +3,8 @@ import './navbar.css';
 import logo from "./LCA-LOGO.png";
 import { Statistics } from '../Statistics/Statistics';
 import { createRoot } from 'react-dom/client';
+import { Footer } from '../footer/footer';
+import {Roster} from '../roster/roster';
 
 export class NavBar extends React.Component{
 
@@ -10,12 +12,14 @@ export class NavBar extends React.Component{
     const root = createRoot(document.getElementById('base'));
     const root2 = createRoot(document.getElementById('team_stat'));
     const root3 = createRoot(document.getElementById('player_stat'));
-    root.unmount();
+    root.render(<Footer />);
     root2.unmount();
     root3.unmount();
   }
 
   showPlayers(){
+    const root = createRoot(document.getElementById('base'));
+    root.render(<Roster />);
   }
 
   showStat(){

@@ -1,0 +1,34 @@
+
+#schedule{
+    background-color: black;
+    min-height: 50vw;
+    color: white;
+}
+
+#schedule h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+#schedule h3{
+    margin-top: 1%;
+    font-size: 2rem;
+}
+
+#schedule p{
+    margin: 1%;
+}
+
+#schedule_box{
+    display: grid;
+    place-items: center;
+}
+
+#game_box{
+    background-color: rgb(102, 0, 0);
+    border: solid  white;
+    text-align: center;
+    width: 50%;
+    margin: 1% auto;
+}

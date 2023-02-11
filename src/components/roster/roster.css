@@ -58,9 +58,20 @@ thead h4{
     display: none;
     height: 8rem;
     margin-top: 2%;
+    border-radius: 10%;
 }
 
 .cells:hover .pic{
     display: grid;  
     justify-self: center;
+}
+
+.cells:hover .inst{
+    display: block;
+}
+
+.inst{
+    font-size: 1.8rem;
+    margin: 2% auto;
+    display: none;
 }

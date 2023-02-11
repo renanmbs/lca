@@ -15,7 +15,7 @@ export class Footer extends React.Component{
                     <a className="icon" href="https://www.instagram.com/lcamsoccer/" target="_blank" rel="noopener noreferrer"><GrInstagram/></a>
                     <a className="icon2" href="/"><MdOutlineEmail/></a>
                     <a className="icon2" href="https://www.lcaeagle.org/" target="_blank" rel="noopener noreferrer"><TfiWorld/></a>
-                    <p>Address: 2352 E Hwy 193, Layton, UT 84040</p>
+                    <address>Address: 2352 E Hwy 193, Layton, UT 84040</address>
                 </div>
 
                 <div className="cont">

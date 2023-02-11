@@ -4,7 +4,9 @@ import { goalies} from "./roster_info";
 import { def } from "./roster_info";
 import { mid } from "./roster_info";
 import { fw } from "./roster_info";
-import pacheco from "../info/photos/pacheco.png"
+import pacheco from "../info/photos/pacheco.png";
+import { GrInstagram } from "react-icons/gr";
+import {BsFillCameraReelsFill} from "react-icons/bs";
 
 
 //Work on correctly printing roster table
@@ -39,6 +41,8 @@ const Players = ({ rows }) => {
                         <p className="na">{cell.p_name}</p>
                         <p className="num">{cell.number}</p>
                         <p className="city">{cell.city}</p>
+                        <a href={cell.insta} target="_blank" rel="noopener noreferrer"><GrInstagram className="inst"/></a>
+                        <a href={cell.video} target="_blank" rel="noopener noreferrer"><BsFillCameraReelsFill className="inst"/></a>
                     </div>
                 </td>
             ))}

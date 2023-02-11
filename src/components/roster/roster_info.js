@@ -1,21 +1,26 @@
+//Update players pictures, links, numbers and names
 
 export const goalies = [
     {
         p_name:"Bernardo",
         number: 1,
         city: "Sim",
+        insta: "https://www.instagram.com/bemanzano_/",
+        video:"https://www.youtube.com/"
     },
 
     {
         p_name:"Diego",
         number: 22,
-        city: "Porto Alegre, Brazil"
+        city: "Porto Alegre, Brazil",
+        insta: "https://www.instagram.com/diegowittler/"
     },
 
     {
         p_name:"Iñigo",
         number: 31,
-        city: "Philippines"
+        city: "Philippines",
+        insta: "https://www.instagram.com/inigocastro13/"
     }
 ]
 

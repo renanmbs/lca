@@ -1,42 +1,58 @@
 import React from 'react';
 import './navbar.css';
 import logo from "./LCA-LOGO.png";
-import { Statistics } from '../Statistics/Statistics';
+import { Statistics } from '../info/info_player';
 import { createRoot } from 'react-dom/client';
 import { Footer } from '../footer/footer';
 import {Roster} from '../roster/roster';
+import { Schedule } from '../schedule/schedule';
+import { ShowMedia } from '../media/media';
 
 export class NavBar extends React.Component{
 
   hide(){
     const root = createRoot(document.getElementById('base'));
-    const root2 = createRoot(document.getElementById('team_stat'));
+    const root2 = createRoot(document.getElementById('t_stat'));
     const root3 = createRoot(document.getElementById('player_stat'));
-    root.render(<Footer />);
     root2.unmount();
     root3.unmount();
+    root.render(<Footer />);
   }
 
   showPlayers(){
     const root = createRoot(document.getElementById('base'));
+    const root2 = createRoot(document.getElementById('t_stat'));
+    const root3 = createRoot(document.getElementById('player_stat'));
+    root2.unmount();
+    root3.unmount();
     root.render(<Roster />);
   }
 
   showStat(){
     const root = createRoot(document.getElementById('base'));
-    const root2 = createRoot(document.getElementById('team_stat'));
+    const root2 = createRoot(document.getElementById('t_stat'));
     const root3 = createRoot(document.getElementById('player_stat'));
-    root.render(<Statistics/>);
     root2.unmount();
     root3.unmount();
+    root.render(<Statistics/>);
   }
 
   showSchedule(){
-    //Render schedule component
+    const root = createRoot(document.getElementById('base'));
+    const root2 = createRoot(document.getElementById('t_stat'));
+    const root3 = createRoot(document.getElementById('player_stat'));
+    root2.unmount();
+    root3.unmount();
+    root.render(<Schedule />);
   }
 
   showPhotos(){
-   //Render photos component
+    const root = createRoot(document.getElementById('base'));
+    const root2 = createRoot(document.getElementById('t_stat'));
+    const root3 = createRoot(document.getElementById('player_stat'));
+    root2.unmount();
+    root3.unmount();
+    root.render(<ShowMedia />);
   }
 
   render(){

@@ -23,6 +23,25 @@
     display: block;
 }
 
+.searchBox{
+    background-color: white;
+    height: 12rem;
+    width: 30rem;
+    display: grid;
+    place-items: center;
+    box-shadow: 1px 1px 10px white;
+}
+
+#area{
+    margin: 1% auto;
+    height: 30vw;
+    width: 40rem;
+    background-color: black;
+    box-shadow: 1px 1px 7px black;
+    display: grid;
+    place-items: center;
+}
+
 #look{
     border: none;
     width: 0;
@@ -54,13 +73,33 @@
     background: transparent;
 }
 
-#team_stat{
-    background-color: pink;
+img{
+    height: 10rem;
+    width: 11rem;
+    margin: 0;
+    padding: 0;
 }
 
-#player_stat{
-    background-color: blue;
+#area h4{
+    margin: 0;
+    padding: 0;
+    color: white;
 }
+
+#p_stats h3{
+    font-size: 2rem;
+    color: white;
+}
+
+.ball{
+    color: white;
+    font-size: 3rem;
+}
+
+.stat{
+    color: white;
+}
+
 
 @media only screen and (max-width:600px){
     .searches{

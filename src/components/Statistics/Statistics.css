@@ -12,89 +12,39 @@ h2{
 }
 
 #holster{
-    background-color: rgba(81, 0, 0, 0.88);
+    background-color: rgba(81, 0, 0);
     padding-top: 5%;
     min-height: 100vh;
 }
 
-.searchBox{
-    background-color: white;
-    height: 12rem;
-    width: 30rem;
-    display: grid;
-    place-items: center;
-    box-shadow: 1px 1px 10px white;
-}
 
-.searches{
-    display: inline-flex;
-    padding: 5px;
-    border-radius: 50px;
-    transition: 0.4s;
-    background-color: rgba(81, 0, 0, 0.88);
-}
-
-.searches:hover{
-    width: 27rem;
-}
-
-.searches:active{
-    width: 27rem;
-}
-
-.searches:hover input{
-    width: 20rem;
-}
-
-.searches:hover #look{
-    width: 5rem;
-    display: block;
-}
-
-#look{
-    border: none;
-    width: 0;
-    background: transparent;
-    border: 0;
-    padding: 0;
-    display: none;
-    font-size: 17px;
-    color: #f9f9f9;
-    cursor: pointer;
-}
-
-.searches input{
-    border: none;
-    width: 0;
-    text-indent: 4px;
-    transition: 0.4s;
-    background: transparent;
-    border: 0;
-    padding: 0;
-    color: #f9f9f9;
-    font-size: 22px;
-    outline: none;
-}
-
-.icon{
-    font-size: 3rem;
+#t_stats{
+    background-image: url("./photo2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 50vw;
+    text-align: center;
     color: white;
 }
 
-#team_stat{
-    background-color: pink;
+#t_stats h3{
+    font-size: 3rem;
+    padding-top: 0.7rem;
 }
 
 #p_stats{
-    height: 35vw;
+    min-height: 35vw;
     text-align: center;
-    background-color: #f9f9f9;
+    background-image: url("./photo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.se{
-    padding: 0;
-    font-size: 3rem;
-    background-color: white;
+#holder{
+    display: grid;
+    place-items: center;
 }
 
 #cont{
@@ -102,22 +52,12 @@ h2{
     place-items: center;
 }
 
-#area{
-    margin: 1% auto;
-    height: 30vw;
-    width: 40rem;
-    background-color: black;
-    box-shadow: 1px 1px 10px black;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
 h5{
     margin: 1%;
     font-size: 2rem;
     color: white;
 }
+
 
 @media only screen and (max-width:600px){
     .searchBox{

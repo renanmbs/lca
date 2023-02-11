@@ -1,5 +1,6 @@
 import pach from "./photos/pacheco.png";
-import davis from "./photos/davi s.png"
+import davis from "./photos/davi s.png";
+
 export const stats = {
     1:{
             p_name: "Pacheco",
@@ -7,7 +8,6 @@ export const stats = {
             goals: 1,
             assists: 5,
             number:10,
-            born: "Curitiba, Brazil"
     },
 
     2:{
@@ -16,8 +16,16 @@ export const stats = {
             goals: 6,
             assists: 2,
             number:11,
-            born: "Rio de Janeiro, Brazil"
-    }
+    },
+
+    3:{
+        p_name: "Diego",
+        image: "",
+        goals: null,
+        assists: null,
+        number:11,
+        clean:5
+}
 
 }
 

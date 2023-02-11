@@ -59,6 +59,7 @@ thead h4{
     height: 8rem;
     margin-top: 2%;
     border-radius: 10%;
+    border: solid white;
 }
 
 .cells:hover .pic{

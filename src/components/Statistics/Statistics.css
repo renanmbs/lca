@@ -19,7 +19,7 @@ h2{
 
 
 #t_stats{
-    background-image: url("./photo2.png");
+    background-image: url("./photos/photo2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,7 +36,7 @@ h2{
 #p_stats{
     min-height: 35vw;
     text-align: center;
-    background-image: url("./photo.png");
+    background-image: url("./photos/photo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -75,3 +75,16 @@ thead h4{
     margin: 2% auto;
     display: none;
 }
+
+@media only screen and (max-width:660px){
+    .pic{
+        height: 5rem;
+        margin-top: 5%;
+    }
+
+    .inst{
+        font-size: 1.8rem;
+        margin: 5% auto;
+        display: none;
+    }
+}

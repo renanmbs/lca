@@ -33,3 +33,11 @@
     margin: 1% auto;
     box-shadow: 1px 1px 10px white;
 }
+
+@media only screen and (max-width:660px){
+    #game_box{
+        width: 70%;
+        margin: 5% auto;
+        box-shadow: 1px 1px 4px white;
+    }
+}

@@ -22,7 +22,7 @@ export class Footer extends React.Component{
                     <h5>Contact The Coach</h5>
                     <h6>Coach Lucas Almeida</h6>
                     <p>Email: Lucas Almeida</p>
-                    <p>Phone:</p>
+                    <p className="last">Phone:</p>
 
                 </div>
             </footer>

@@ -103,20 +103,36 @@
 }
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:660px){
+
+    .searchBox{
+        height: 18rem;
+    }
+
+
     .searches{
-        padding: 20px;
+        padding: 3%;
     }
 
     .searches:hover{
-        width: 18rem;
+        width: 15rem;
     }
     
     .searches:active{
-        width: 18rem;
+        width: 15rem;
     }
     
     .searches:hover input{
-        width: 17rem;
+        width: 14rem;
     }
+
+    #area h4{
+        font-size: 2.2rem;
+    }
+    
+    .ico{
+        font-size: 1.8rem;
+    }
+
+
 }

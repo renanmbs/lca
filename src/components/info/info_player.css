@@ -106,43 +106,42 @@
 @media only screen and (max-width:660px){
 
     .searchBox{
-        height: 25rem;
+        height: 18rem;
+        width: 23rem;
     }
 
-
     .searches{
-        padding: 1%;
-        padding: 5px;
+        padding: 5%;
     }
 
     .searches:hover{
-        width: 12rem;
+        width: 14rem;
     }
     
     .searches:active{
-        width: 12rem;
+        width: 14rem;
     }
     
     .searches:hover input{
-        width: 11rem;
+        width: 12rem;
     }
 
     #area h4{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
     
     .ico{
-        font-size: 1.8rem;
+        font-size: 2.6rem;
+    }
+
+    .ball{
+        color: white;
+        font-size: 2.4rem;
     }
 
     #area{
-        margin: 1% auto;
-        height: 25rem;
+        height: 28rem;
         width: 20rem;
-        background-color: black;
-        box-shadow: 1px 1px 7px black;
-        display: grid;
-        place-items: center;
     }
 
     #area img{

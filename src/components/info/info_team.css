@@ -39,16 +39,17 @@
 
 @media only screen and (max-width:660px){
   
-#discipline p{
-    margin:auto 3%;
-}  
+    #discipline p{
+        padding: auto 5%;
+    }  
 
-#box{
-    margin-top: 4%;
-    height: 25rem;
-    width:28rem;
-    background-color: white;
-    box-shadow: 1px 1px 5px white;
-    color: black;
-}
+    #box{
+        margin-top: 4%;
+        height: 18rem;
+        width:20rem;
+    }
+
+    .icon_box{
+        font-size: 2rem;
+    }
 }

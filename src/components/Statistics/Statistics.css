@@ -68,10 +68,15 @@ h5{
     }
 
     #p_stats{
-        min-height: 85vw;
+        min-height: 110vw;
     }
 
     #t_stats{
-        min-height: 85vw;
+        min-height: 160vw;
+    }
+
+    #t_stats h3{
+        font-size: 2.7rem;
+
     }
 }

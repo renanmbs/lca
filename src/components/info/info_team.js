@@ -24,11 +24,11 @@ export class Team extends React.Component{
                     <p>{this.props.against}</p>
 
                     <h4>Goals Scored</h4>
-                    <MdSportsSoccer />
+                    <MdSportsSoccer className="icon_box"/>
                     <p>{this.props.goals_pro}</p>
 
                     <h4>Goals Conceived</h4>
-                    <MdSportsSoccer style={{color:"red"}}/>
+                    <MdSportsSoccer className="icon_box" style={{color:"red"}}/>
                     <p>{this.props.goals_against}</p>
 
                     <h4>Discipline</h4>

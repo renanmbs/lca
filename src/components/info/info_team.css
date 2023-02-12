@@ -40,12 +40,12 @@
 @media only screen and (max-width:660px){
   
     #discipline p{
-        padding-right: 5%;
+        column-gap: 10%;
     }  
 
     #box{
         margin-top: 4%;
-        height: 18rem;
+        height: 40rem;
         width:20rem;
     }
 

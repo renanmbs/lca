@@ -33,8 +33,8 @@ export class Team extends React.Component{
 
                     <h4>Discipline</h4>
                     <div id="discipline">
-                        <p style={{color:"#CCCC00"}}>{this.props.yellow}</p>
-                        <p style={{color:"red"}}>{this.props.red}</p>
+                        <p style={{color:"#CCCC00"}}>Yellow Cards: {this.props.yellow}</p>
+                        <p style={{color:"red"}}>Red Cards: {this.props.red}</p>
                     </div>
                 </div>
             </div>

@@ -37,11 +37,15 @@
     display: inline-flex;
 }
 
+#discipline p{
+    font-size: 1.2rem;
+    margin: auto 2rem;
+} 
+
 @media only screen and (max-width:660px){
   
     #discipline p{
         font-size: 1.4rem;
-        margin-right: 2%;
     }  
 
     #box{

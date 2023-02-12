@@ -41,14 +41,13 @@
 
     .image_box img{
         border: solid rgb(102, 0, 0);
-        height: 13rem;
-        width: 15rem;
+        height: 8rem;
+        width: 12rem;
         margin: 1% auto;
     }
 
     .image_box{
-        height: 13rem;
-        width: 15rem;
+        margin: 5% auto;
     }
     
 }

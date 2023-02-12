@@ -36,3 +36,19 @@
 #discipline{
     display: inline-flex;
 }
+
+@media only screen and (max-width:660px){
+  
+#discipline p{
+    margin:auto 3%;
+}  
+
+#box{
+    margin-top: 4%;
+    height: 25rem;
+    width:28rem;
+    background-color: white;
+    box-shadow: 1px 1px 5px white;
+    color: black;
+}
+}

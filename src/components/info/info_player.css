@@ -106,24 +106,25 @@
 @media only screen and (max-width:660px){
 
     .searchBox{
-        height: 18rem;
+        height: 25rem;
     }
 
 
     .searches{
-        padding: 3%;
+        padding: 1%;
+        padding: 5px;
     }
 
     .searches:hover{
-        width: 15rem;
+        width: 12rem;
     }
     
     .searches:active{
-        width: 15rem;
+        width: 12rem;
     }
     
     .searches:hover input{
-        width: 14rem;
+        width: 11rem;
     }
 
     #area h4{
@@ -132,6 +133,25 @@
     
     .ico{
         font-size: 1.8rem;
+    }
+
+    #area{
+        margin: 1% auto;
+        height: 25rem;
+        width: 20rem;
+        background-color: black;
+        box-shadow: 1px 1px 7px black;
+        display: grid;
+        place-items: center;
+    }
+
+    #area img{
+        height: 5rem;
+        width: 5rem;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding: 0;
+        border: solid white;
     }
 
 

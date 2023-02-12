@@ -60,14 +60,6 @@ h5{
 
 
 @media only screen and (max-width:600px){
-    .searchBox{
-        height: 8rem;
-        width: 20rem;
-    }
-
-    .searches{
-        padding: 20px;
-    }
 
     #players{
         display: flex;
@@ -75,19 +67,11 @@ h5{
         justify-content: center;
     }
 
-    h2{
-        padding: 8%;
+    #p_stats{
+        min-height: 60vw;
     }
 
-    .searches:hover{
-        width: 18rem;
-    }
-    
-    .searches:active{
-        width: 18rem;
-    }
-    
-    .searches:hover input{
-        width: 17rem;
+    #t_stats{
+        min-height: 80vw;
     }
 }

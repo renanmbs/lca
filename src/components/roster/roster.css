@@ -87,4 +87,13 @@ thead h4{
         margin: 8% auto;
         display: none;
     }
+
+    .na{
+        margin-top: 3%;
+    }
+
+    .city{
+        margin-bottom: 3%;
+    }
+    
 }

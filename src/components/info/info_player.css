@@ -140,6 +140,7 @@
     }
 
     #area{
+        margin: 2% auto;
         height: 32rem;
         width: 20rem;
     }

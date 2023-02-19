@@ -15,7 +15,7 @@ export class Teambutton extends React.Component{
     render(){
         return(
             <div>
-                <button onClick={this.show}>Team Statistics</button>
+                <button id="t" onClick={this.show}>Team Statistics</button>
             </div>
         )
     }

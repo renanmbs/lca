@@ -30,7 +30,10 @@ function Playerchecker(){
     return(
         <div className="searches">
             <HiSearch className="ico"/>
-            <input list="search_players" id="search" name="search" placeholder="Name" onChange={checkName}/>
+            <form>
+                <input list="search_players" id="search" name="search" placeholder="Name" onChange={checkName}/>
+                <input name='search' type="reset"/><br/>
+            </form>
             <Names name={player_names}/>
         </div>
     );

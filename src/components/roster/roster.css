@@ -52,6 +52,7 @@ thead h4{
 
 #information{
     display: grid;
+    margin: 1rem auto;
 }
 
 .pic{

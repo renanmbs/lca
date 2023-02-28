@@ -173,10 +173,11 @@ form{
     }
 
     .searches:hover input[type*="reset"]{
-        width: 5rem;
+        width: 4rem;
         padding: 0 !important;
-        margin: 0 !important;
+        margin-left: 2%;
         text-align: center;
+
     }
 
     #area h4{

@@ -19,6 +19,14 @@
     width: 18rem;
 }
 
+.searches:hover input[type*="reset"]{
+    width: 6rem;
+    border: solid white;
+    border-radius: 50px;
+    background-color: white;
+    color: rgba(81, 0, 0, 1);
+}
+
 form{
     display: flex;
     place-items: center;
@@ -85,7 +93,7 @@ form{
     border: 0;
     padding: 0;
     color: #f9f9f9;
-    font-size: 22px;
+    font-size: 1.3rem;
     outline: none;
     text-align: center;
     filter: drop-shadow(1px 1px 2px black);
@@ -93,8 +101,6 @@ form{
 
 .searches input[type*="reset"]:hover{
     border: solid white;
-    width: 6rem;
-    border-radius: 50px;
     color: white;
     background-color: rgba(81, 0, 0, 1);
 }

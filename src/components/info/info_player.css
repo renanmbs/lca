@@ -178,7 +178,6 @@ form{
     }
 
     .searches:hover input[type*="reset"]{
-        width: 5rem;
         padding: 0px !important;
         margin: 0px !important;
         text-align: center;

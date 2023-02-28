@@ -32,7 +32,7 @@ function Playerchecker(){
             <HiSearch className="ico"/>
             <form>
                 <input list="search_players" id="search" name="search" placeholder="Name" onChange={checkName}/>
-                <input name='search' type="reset"/><br/>
+                <input name='search' type="reset"/>
             </form>
             <Names name={player_names}/>
         </div>

@@ -21,7 +21,10 @@
 
 .searches:hover input[type*="reset"]{
     width: 6rem;
+    border: solid white;
     border-radius: 50px;
+    background-color: white;
+    color: rgba(81, 0, 0, 1);
 }
 
 form{

@@ -75,7 +75,7 @@ form{
 .searches input{
     border: none;
     width: 0;
-    text-indent: 4px;
+    /* text-indent: 4px; */
     transition: 0.4s;
     background: transparent;
     border: 0;
@@ -169,15 +169,19 @@ form{
     }
     
     .searches:hover input{
-        width: 10rem;
+        width: 9rem;
+    }
+
+    .searches input[type*="reset"]{
+        padding: 0px !important;
+        margin: 0px !important;
     }
 
     .searches:hover input[type*="reset"]{
-        width: 4rem;
-        padding: 0 !important;
-        margin-left: 2%;
+        width: 5rem;
+        padding: 0px !important;
+        margin: 0px !important;
         text-align: center;
-
     }
 
     #area h4{

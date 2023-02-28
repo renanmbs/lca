@@ -163,15 +163,19 @@ form{
     }
 
     .searches:hover{
-        width: 14rem;
+        width: 18rem;
     }
     
     .searches:active{
-        width: 14rem;
+        width: 18rem;
     }
     
     .searches:hover input{
         width: 10rem;
+    }
+
+    .searches input[type*="reset"]{
+        margin-left: 1%;
     }
 
     #area h4{

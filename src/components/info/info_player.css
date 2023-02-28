@@ -169,7 +169,7 @@ form{
     }
     
     .searches:hover input{
-        width: 11rem;
+        width: 10rem;
     }
 
     .searches input[type*="reset"]{

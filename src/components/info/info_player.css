@@ -19,15 +19,6 @@
     width: 18rem;
 }
 
-.searches:hover input[type*="reset"]{
-    width: 6rem;
-    border: solid white;
-    border-radius: 50px;
-    /* padding: 0.3rem 0.1rem 0.3rem 0.1rem; */
-    background-color: white;
-    color: rgba(81, 0, 0, 1);
-}
-
 form{
     display: flex;
     place-items: center;
@@ -97,12 +88,13 @@ form{
     font-size: 22px;
     outline: none;
     text-align: center;
-    /* margin-left: 3%; */
     filter: drop-shadow(1px 1px 2px black);
 }
 
 .searches input[type*="reset"]:hover{
     border: solid white;
+    width: 6rem;
+    border-radius: 50px;
     color: white;
     background-color: rgba(81, 0, 0, 1);
 }
@@ -174,8 +166,9 @@ form{
         width: 10rem;
     }
 
-    .searches input[type*="reset"]{
-        margin-left: 1%;
+    .searches:hover input[type*="reset"]{
+        width: 5rem;
+
     }
 
     #area h4{

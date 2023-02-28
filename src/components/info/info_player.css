@@ -176,6 +176,7 @@ form{
 
     .searches:hover input[type*="reset"]{
         width: 5rem;
+        margin: 0 !important;
     }
 
     #area h4{

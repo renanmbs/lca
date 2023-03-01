@@ -6,6 +6,7 @@ export const goalies = [
         l_name: "Manzano",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -16,6 +17,7 @@ export const goalies = [
         l_name: "Castro",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -26,6 +28,7 @@ export const goalies = [
         l_name: "Wittler",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -39,6 +42,7 @@ export const def = [
         l_name: "Lemos",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -49,6 +53,7 @@ export const def = [
         l_name: "Fleischfresser",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -59,6 +64,7 @@ export const def = [
         l_name: "Czamarka",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -69,6 +75,7 @@ export const def = [
         l_name: "Castro",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -79,6 +86,7 @@ export const def = [
         l_name: "Gerardi",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -89,6 +97,7 @@ export const def = [
         l_name: "Guido",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -99,6 +108,7 @@ export const def = [
         l_name: "Baptista",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -109,6 +119,7 @@ export const def = [
         l_name: "Stein",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -119,6 +130,7 @@ export const def = [
         l_name: "Lie",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -129,6 +141,7 @@ export const def = [
         l_name: "Luis",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -139,6 +152,7 @@ export const def = [
         l_name: "Marins",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -149,6 +163,7 @@ export const def = [
         l_name: "Mathabatha",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -157,8 +172,9 @@ export const def = [
     {
         p_name:"",
         l_name: "",
-        number: 0,
+        number: "",
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -169,6 +185,7 @@ export const def = [
         l_name: "Souza",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -177,8 +194,9 @@ export const def = [
     {
         p_name:"",
         l_name: "",
-        number: 0,
+        number: "",
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -191,6 +209,7 @@ export const mid = [
         l_name: "Aguiar",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -201,6 +220,7 @@ export const mid = [
         l_name: "Silva",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -211,6 +231,7 @@ export const mid = [
         l_name: "Wittler",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -221,6 +242,7 @@ export const mid = [
         l_name: "Stoll",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -231,6 +253,7 @@ export const mid = [
         l_name: "Diniz",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -241,6 +264,7 @@ export const mid = [
         l_name: "Hlakula",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -250,7 +274,8 @@ export const mid = [
         p_name:"Matheus",
         l_name: "Pacheco",
         number: 0,
-        city: "Curitiba, Brazil",
+        city: "Curitiba",
+        cnt: "Brazil",
         insta: "",
         video:"",
         src: pacheco
@@ -261,6 +286,7 @@ export const mid = [
         l_name: "Santana",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -271,6 +297,7 @@ export const mid = [
         l_name: "Sanseverino",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -284,6 +311,7 @@ export const fw = [
         l_name: "Cartaxo",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -294,6 +322,7 @@ export const fw = [
         l_name: "Kalisa",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -304,6 +333,7 @@ export const fw = [
         l_name: "Zandonade",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -314,6 +344,7 @@ export const fw = [
         l_name: "Feijó",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -324,6 +355,7 @@ export const fw = [
         l_name: "Rocha",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -334,6 +366,7 @@ export const fw = [
         l_name: "Cubero",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -344,6 +377,7 @@ export const fw = [
         l_name: "Maestri",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -354,6 +388,7 @@ export const fw = [
         l_name: "Yoshida",
         number: 0,
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""
@@ -362,8 +397,9 @@ export const fw = [
     {
         p_name:"",
         l_name: "",
-        number: 0,
+        number: "",
         city: "",
+        cnt: "",
         insta: "",
         video:"",
         //src: ""

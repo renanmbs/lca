@@ -7,7 +7,7 @@ export const goalies = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -16,7 +16,7 @@ export const goalies = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -25,7 +25,7 @@ export const goalies = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     }
 
 ]
@@ -37,7 +37,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -46,7 +46,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -55,7 +55,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -64,7 +64,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -73,7 +73,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -82,7 +82,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -91,7 +91,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -100,7 +100,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -109,7 +109,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -118,7 +118,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -127,7 +127,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -136,7 +136,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
     
     {
@@ -145,7 +145,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -154,7 +154,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
     
     {
@@ -163,7 +163,7 @@ export const def = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     }
 ]
 
@@ -174,7 +174,7 @@ export const mid = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -183,7 +183,7 @@ export const mid = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -192,7 +192,7 @@ export const mid = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -201,7 +201,7 @@ export const mid = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -210,7 +210,7 @@ export const mid = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -219,7 +219,7 @@ export const mid = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -237,7 +237,7 @@ export const mid = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -246,7 +246,7 @@ export const mid = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     }
     
 ]
@@ -258,7 +258,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -267,7 +267,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -276,7 +276,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -285,7 +285,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -294,7 +294,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -303,7 +303,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -312,7 +312,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
 
     {
@@ -321,7 +321,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     },
     
     {
@@ -330,7 +330,7 @@ export const fw = [
         city: "",
         insta: "",
         video:"",
-        src: ""
+        //src: ""
     }
     
 ]

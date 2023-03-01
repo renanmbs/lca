@@ -95,6 +95,7 @@ iframe{
         height: 15rem;
         width: 20rem;
         filter: drop-shadow(1px 1px 4px black);
+        margin: 2% auto 4% auto;
     }
     
 }

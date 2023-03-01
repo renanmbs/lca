@@ -36,7 +36,7 @@ const Players = ({ rows }) => {
             {row.map((cell, column_index) => (
                 <td key={column_index} className="cells">
                     <div id="information">
-                        <img className="pic" alt={cell.p_name} src={cell.src}/>
+                        {/* <img className="pic" alt={cell.p_name} src={cell.src}/> */}
                         <p className="na">{cell.p_name}</p>
                         <p className="num">{cell.number}</p>
                         <p className="city">{cell.city}</p>

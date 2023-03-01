@@ -1,6 +1,5 @@
 import React from "react";
 import { GrInstagram } from "react-icons/gr";
-import {MdMessage} from "react-icons/md";
 import {TfiWorld} from "react-icons/tfi"
 import "./footer.css";
 
@@ -13,7 +12,6 @@ export class Footer extends React.Component{
                 <h4>Contact Us</h4>
                 <div className="icons">
                     <a className="icon" href="https://www.instagram.com/lcamsoccer/" target="_blank" rel="noopener noreferrer"><GrInstagram/></a>
-                    <a className="icon2" href="https://www.instagram.com/direct/t/340282366841710300949128221792683533288" target="_blank" rel="noopener noreferrer"><MdMessage/></a>
                     <a className="icon2" href="https://www.lcaeagle.org/" target="_blank" rel="noopener noreferrer"><TfiWorld/></a>
                     <address>Address: 2352 E Hwy 193, Layton, UT 84040</address>
                     <div id="map">

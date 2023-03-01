@@ -38,6 +38,7 @@ const Players = ({ rows }) => {
                     <div id="information">
                         {/* <img className="pic" alt={cell.p_name} src={cell.src}/> */}
                         <p className="na">{cell.p_name}</p>
+                        <p className="la">{cell.l_name}</p>
                         <p className="num">{cell.number}</p>
                         <p className="city">{cell.city}</p>
                         <a href={cell.insta} target="_blank" rel="noopener noreferrer"><GrInstagram className="inst"/></a>

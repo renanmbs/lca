@@ -35,7 +35,12 @@ thead h4{
 }
 
 .na{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.la{
+    font-size: 1.2rem;
     font-weight: bolder;
 }
 
@@ -91,11 +96,21 @@ thead h4{
 
     .na{
         margin-top: 3%;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .la{
+        margin-top: 3%;
+        font-size: 0.9rem;
     }
 
     .city{
         margin-bottom: 3%;
+        font-size: 1rem;
+    }
+
+    .num{
+        font-size: 1rem;
     }
     
 }

@@ -2,7 +2,8 @@
 import pacheco from "../info/photos/pacheco.png";
 export const goalies = [
     {
-        p_name:"Bernardo Manzano",
+        p_name:"Bernardo",
+        l_name: "Manzano",
         number: 0,
         city: "",
         insta: "",
@@ -11,7 +12,8 @@ export const goalies = [
     },
 
     {
-        p_name:"Iñigo Castro",
+        p_name:"Iñigo",
+        l_name: "Castro",
         number: 0,
         city: "",
         insta: "",
@@ -20,7 +22,8 @@ export const goalies = [
     },
 
     {
-        p_name:"Diego Wittler",
+        p_name:"Diego",
+        l_name: "Wittler",
         number: 0,
         city: "",
         insta: "",
@@ -32,7 +35,8 @@ export const goalies = [
 
 export const def = [
     {
-        p_name:"Gabriel Lemos",
+        p_name:"Gabriel",
+        l_name: "Lemos",
         number: 0,
         city: "",
         insta: "",
@@ -41,7 +45,8 @@ export const def = [
     },
 
     {
-        p_name:"Guilherme Fleischfresser",
+        p_name:"Guilherme",
+        l_name: "Fleischfresser",
         number: 0,
         city: "",
         insta: "",
@@ -50,7 +55,8 @@ export const def = [
     },
 
     {
-        p_name:"Lucca Czamarka",
+        p_name:"Lucca",
+        l_name: "Czamarka",
         number: 0,
         city: "",
         insta: "",
@@ -59,7 +65,8 @@ export const def = [
     },
 
     {
-        p_name:"João Luis Castro",
+        p_name:"João Luis",
+        l_name: "Castro",
         number: 0,
         city: "",
         insta: "",
@@ -68,7 +75,8 @@ export const def = [
     },
 
     {
-        p_name:"Rafael Gerardi",
+        p_name:"Rafael",
+        l_name: "Gerardi",
         number: 0,
         city: "",
         insta: "",
@@ -77,7 +85,8 @@ export const def = [
     },
 
     {
-        p_name:"João Vitor Guido",
+        p_name:"João Vitor",
+        l_name: "Guido",
         number: 0,
         city: "",
         insta: "",
@@ -86,7 +95,8 @@ export const def = [
     },
 
     {
-        p_name:"Matheus Baptista",
+        p_name:"Matheus",
+        l_name: "Baptista",
         number: 0,
         city: "",
         insta: "",
@@ -95,7 +105,8 @@ export const def = [
     },
 
     {
-        p_name:"Miguel Stein",
+        p_name:"Miguel",
+        l_name: "Stein",
         number: 0,
         city: "",
         insta: "",
@@ -104,7 +115,8 @@ export const def = [
     },
 
     {
-        p_name:"Nicolas Lie",
+        p_name:"Nicolas",
+        l_name: "Lie",
         number: 0,
         city: "",
         insta: "",
@@ -113,7 +125,8 @@ export const def = [
     },
 
     {
-        p_name:"Theo Luis",
+        p_name:"Theo",
+        l_name: "Luis",
         number: 0,
         city: "",
         insta: "",
@@ -122,7 +135,8 @@ export const def = [
     },
 
     {
-        p_name:"Thomas Marins",
+        p_name:"Thomas",
+        l_name: "Marins",
         number: 0,
         city: "",
         insta: "",
@@ -131,7 +145,8 @@ export const def = [
     },
 
     {
-        p_name:"Kagiso Mathabatha",
+        p_name:"Kagiso",
+        l_name: "Mathabatha",
         number: 0,
         city: "",
         insta: "",
@@ -141,7 +156,8 @@ export const def = [
     
     {
         p_name:"",
-        number: "",
+        l_name: "",
+        number: 0,
         city: "",
         insta: "",
         video:"",
@@ -149,7 +165,8 @@ export const def = [
     },
 
     {
-        p_name:"Yan Souza",
+        p_name:"Yan",
+        l_name: "Souza",
         number: 0,
         city: "",
         insta: "",
@@ -159,7 +176,8 @@ export const def = [
     
     {
         p_name:"",
-        number: "",
+        l_name: "",
+        number: 0,
         city: "",
         insta: "",
         video:"",
@@ -169,7 +187,8 @@ export const def = [
 
 export const mid = [
     {
-        p_name:"Davi Aguiar",
+        p_name:"Davi",
+        l_name: "Aguiar",
         number: 0,
         city: "",
         insta: "",
@@ -178,7 +197,8 @@ export const mid = [
     },
 
     {
-        p_name:"Davi Silva",
+        p_name:"Davi",
+        l_name: "Silva",
         number: 0,
         city: "",
         insta: "",
@@ -187,7 +207,8 @@ export const mid = [
     },
 
     {
-        p_name:"Fred Wittler",
+        p_name:"Fred",
+        l_name: "Wittler",
         number: 0,
         city: "",
         insta: "",
@@ -196,7 +217,8 @@ export const mid = [
     },
 
     {
-        p_name:"João Pedro Stoll",
+        p_name:"João Pedro",
+        l_name: "Stoll",
         number: 0,
         city: "",
         insta: "",
@@ -205,7 +227,8 @@ export const mid = [
     },
 
     {
-        p_name:"Joaquim Diniz",
+        p_name:"Joaquim",
+        l_name: "Diniz",
         number: 0,
         city: "",
         insta: "",
@@ -214,7 +237,8 @@ export const mid = [
     },
 
     {
-        p_name:"Lethabo Hlakula",
+        p_name:"Lethabo",
+        l_name: "Hlakula",
         number: 0,
         city: "",
         insta: "",
@@ -223,7 +247,8 @@ export const mid = [
     },
 
     {
-        p_name:"Matheus Pacheco",
+        p_name:"Matheus",
+        l_name: "Pacheco",
         number: 0,
         city: "Curitiba, Brazil",
         insta: "",
@@ -232,7 +257,8 @@ export const mid = [
     },
 
     {
-        p_name:"Raphael Santana",
+        p_name:"Raphael",
+        l_name: "Santana",
         number: 0,
         city: "",
         insta: "",
@@ -241,7 +267,8 @@ export const mid = [
     },
 
     {
-        p_name:"Raul Sanseverino",
+        p_name:"Raul",
+        l_name: "Sanseverino",
         number: 0,
         city: "",
         insta: "",
@@ -253,7 +280,8 @@ export const mid = [
 
 export const fw = [
     {
-        p_name:"Arthur Cartaxo",
+        p_name:"Arthur",
+        l_name: "Cartaxo",
         number: 0,
         city: "",
         insta: "",
@@ -262,7 +290,8 @@ export const fw = [
     },
 
     {
-        p_name:"Clovis Kalisa",
+        p_name:"Clovis",
+        l_name: "Kalisa",
         number: 0,
         city: "",
         insta: "",
@@ -271,7 +300,8 @@ export const fw = [
     },
 
     {
-        p_name:"Erik Zandonade",
+        p_name:"Erik",
+        l_name: "Zandonade",
         number: 0,
         city: "",
         insta: "",
@@ -280,7 +310,8 @@ export const fw = [
     },
 
     {
-        p_name:"Felipe Feijó",
+        p_name:"Felipe",
+        l_name: "Feijó",
         number: 0,
         city: "",
         insta: "",
@@ -289,7 +320,8 @@ export const fw = [
     },
 
     {
-        p_name:"Felipe Rocha",
+        p_name:"Felipe",
+        l_name: "Rocha",
         number: 0,
         city: "",
         insta: "",
@@ -298,7 +330,8 @@ export const fw = [
     },
 
     {
-        p_name:"Isaac Cubero",
+        p_name:"Isaac",
+        l_name: "Cubero",
         number: 0,
         city: "",
         insta: "",
@@ -307,7 +340,8 @@ export const fw = [
     },
 
     {
-        p_name:"Renan Maestri",
+        p_name:"Renan",
+        l_name: "Maestri",
         number: 0,
         city: "",
         insta: "",
@@ -316,7 +350,8 @@ export const fw = [
     },
 
     {
-        p_name:"Vitor Yoshida",
+        p_name:"Vitor",
+        l_name: "Yoshida",
         number: 0,
         city: "",
         insta: "",
@@ -326,7 +361,8 @@ export const fw = [
     
     {
         p_name:"",
-        number: "",
+        l_name: "",
+        number: 0,
         city: "",
         insta: "",
         video:"",

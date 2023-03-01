@@ -9,7 +9,12 @@ import {GiSoccerKick, GiGoalKeeper} from "react-icons/gi";
 
 function Playerchecker(){
 
-    let player_names = ["Pacheco", "Renan", "Bernardo", "Davi S.", "Davi A.", "Stoll", "Japa"];
+    let player_names = ["Bernardo", "Iñigo", "Diego", "Gabriel", "Guilherme", "PG", "Jola", "Varanda", "Guido", "Matheus",
+    "Miguel", "Nicolas", "Theo", "Thomas", "KG", "Yan", "Davi A", "Davi S", "Fred",
+    "Stoll", "Joaquim", "Lethabo", "Pacheco", "Raphael", "Raul", "Arthur", "Clovis", "Erik",
+    "Feijó", "Felipe", "Isaac", "Renan", "Vitor"];
+
+    console.log(player_names.length)
 
     const checkName = ({target}) =>{
         const root = createRoot(document.getElementById('player_stat'));

@@ -4,7 +4,6 @@ import { goalies} from "./roster_info";
 import { def } from "./roster_info";
 import { mid } from "./roster_info";
 import { fw } from "./roster_info";
-import pacheco from "../info/photos/pacheco.png";
 import { GrInstagram } from "react-icons/gr";
 import {BsFillCameraReelsFill} from "react-icons/bs";
 
@@ -37,7 +36,7 @@ const Players = ({ rows }) => {
             {row.map((cell, column_index) => (
                 <td key={column_index} className="cells">
                     <div id="information">
-                        <img className="pic" alt={"pacheco"} src={pacheco}/>
+                        <img className="pic" alt={cell.p_name} src={cell.src}/>
                         <p className="na">{cell.p_name}</p>
                         <p className="num">{cell.number}</p>
                         <p className="city">{cell.city}</p>
@@ -61,6 +60,7 @@ const Players = ({ rows }) => {
     return (
       <div id="tab">
         <table>
+
           <thead>
             <tr>
               <td colSpan={3}>
@@ -68,6 +68,7 @@ const Players = ({ rows }) => {
               </td>
             </tr>
           </thead>
+
           <tbody>
             <Players rows={goal} />
           </tbody>
@@ -79,6 +80,7 @@ const Players = ({ rows }) => {
               </td>
             </tr>
           </thead>
+
           <tbody>
             <Players rows={defs} />
           </tbody>
@@ -90,6 +92,7 @@ const Players = ({ rows }) => {
               </td>
             </tr>
           </thead>
+
           <tbody>
             <Players rows={midf} />
           </tbody>
@@ -101,11 +104,11 @@ const Players = ({ rows }) => {
               </td>
             </tr>
           </thead>
+
           <tbody>
             <Players rows={fwds} />
           </tbody>
-
-
+          
         </table>
       </div>
     )

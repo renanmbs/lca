@@ -126,17 +126,6 @@ export const def = [
     },
 
     {
-        p_name:"Nicolas",
-        l_name: "Lie",
-        number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
-        //src: ""
-    },
-
-    {
         p_name:"Theo",
         l_name: "Luis",
         number: 0,
@@ -373,6 +362,17 @@ export const fw = [
     },
 
     {
+        p_name:"Nicolas",
+        l_name: "Lie",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
+
+    {
         p_name:"Renan",
         l_name: "Maestri",
         number: 0,
@@ -387,17 +387,6 @@ export const fw = [
         p_name:"Vitor",
         l_name: "Yoshida",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
-        //src: ""
-    },
-    
-    {
-        p_name:"",
-        l_name: "",
-        number: "",
         city: "",
         cnt: "",
         insta: "",

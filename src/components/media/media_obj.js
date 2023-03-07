@@ -1,9 +1,9 @@
 import Mustangs from "./photos/IMG_6772.jpg";
 import Morgan from "./photos/IMG_6773.jpg";
 import All from "./photos/img1.jpeg";
-import pc from "./photos/IMG_1236.jpg";
-import red from "./photos/IMG_8876.jpg";
-import afs from "./photos/IMG_0957.jpg";
+import pc from "./photos/IMG_1236.jpeg";
+import red from "./photos/IMG_8876.jpeg";
+import afs from "./photos/IMG_0957.jpeg";
 
 export let midia = [
     {

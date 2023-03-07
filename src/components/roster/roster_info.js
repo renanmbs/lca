@@ -1,14 +1,14 @@
 //Update players pictures, links, numbers and names
-import pacheco from "../info/photos/pacheco.png";
+// import pacheco from "../info/photos/pacheco.png";
 export const goalies = [
     {
         p_name:"Bernardo",
         l_name: "Manzano",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Palmas",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/bemanzano_/",
+        video:"https://youtu.be/6LMQUFhtUuE",
         //src: ""
     },
 
@@ -17,8 +17,8 @@ export const goalies = [
         l_name: "Castro",
         number: 0,
         city: "",
-        cnt: "",
-        insta: "",
+        cnt: "Philippines 🇵🇭",
+        insta: "https://www.instagram.com/inigocastro13/",
         video:"",
         //src: ""
     },
@@ -27,9 +27,9 @@ export const goalies = [
         p_name:"Diego",
         l_name: "Wittler",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Porto Alegre",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/diegowittler/",
         video:"",
         //src: ""
     }
@@ -42,8 +42,19 @@ export const def = [
         l_name: "",
         number: 0,
         city: "",
-        cnt: "",
-        insta: "",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/_carlosamn_06/",
+        video:"",
+        //src: ""
+    },
+
+    {
+        p_name:"Elijah",
+        l_name: "",
+        number: 0,
+        city: "",
+        cnt: "Malawi 🇲🇼",
+        insta: "https://www.instagram.com/sobopapi/",
         video:"",
         //src: ""
     },
@@ -52,10 +63,10 @@ export const def = [
         p_name:"Enzo",
         l_name: "Passos",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/enzopasso_/",
+        video:"https://youtu.be/5aDkF9o-j2M",
         //src: ""
     },
 
@@ -63,9 +74,9 @@ export const def = [
         p_name:"Gabriel",
         l_name: "Lemos",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Belo Horizonte",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/gabriel_lemosp/",
         video:"",
         //src: ""
     },
@@ -74,8 +85,8 @@ export const def = [
         p_name:"Guilherme",
         l_name: "Fleischfresser",
         number: 0,
-        city: "",
-        cnt: "",
+        city: "Curitiba",
+        cnt: "Brazil 🇧🇷",
         insta: "",
         video:"",
         //src: ""
@@ -85,10 +96,10 @@ export const def = [
         p_name:"João Luis",
         l_name: "Castro",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/jl.castro_/",
+        video:"https://www.youtube.com/watch?v=FmLnoXFfj3s",
         //src: ""
     },
 
@@ -96,9 +107,9 @@ export const def = [
         p_name:"João Vitor",
         l_name: "Guido",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Vitória",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/joaovictorvieiraguido/",
         video:"",
         //src: ""
     },
@@ -108,7 +119,7 @@ export const def = [
         l_name: "",
         number: 0,
         city: "",
-        cnt: "",
+        cnt: "Brazil 🇧🇷",
         insta: "",
         video:"",
         //src: ""
@@ -118,10 +129,10 @@ export const def = [
         p_name:"Kagiso",
         l_name: "Mathabatha",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Pretoria",
+        cnt: "South Africa 🇿🇦",
+        insta: "https://www.instagram.com/askboutkg/",
+        video:"https://drive.google.com/file/d/1T4r-FT72Nj2ZJ4BJSPZ53jLY0Dc3aA35/view?usp=drivesdk",
         //src: ""
     },
 
@@ -129,9 +140,9 @@ export const def = [
         p_name:"Lucca",
         l_name: "Czamarka",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/lucca_nc/",
         video:"",
         //src: ""
     },
@@ -140,8 +151,8 @@ export const def = [
         p_name:"Matheus",
         l_name: "Alvarenga",
         number: 0,
-        city: "",
-        cnt: "",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
         insta: "",
         video:"",
         //src: ""
@@ -162,9 +173,9 @@ export const def = [
         p_name:"Nicollas",
         l_name: "Seilhe",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Rio de janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/nicollas.seilhe/",
         video:"",
         //src: ""
     },
@@ -173,10 +184,10 @@ export const def = [
         p_name:"Rafael",
         l_name: "Gerardi",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "São Paulo",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/rafaelgerardi_/",
+        video:"https://youtu.be/I-c1QT1GsJU",
         //src: ""
     },
 
@@ -184,10 +195,10 @@ export const def = [
         p_name:"Theo",
         l_name: "Luis",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Belo Horizonte",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/theoluis_6/",
+        video:"https://youtu.be/zmTGy1MiknY",
         //src: ""
     },
 
@@ -195,21 +206,10 @@ export const def = [
         p_name:"Thomas",
         l_name: "Marins",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Americana",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/thomasmarins/",
         video:"",
-        //src: ""
-    },
-
-    {
-        p_name:"",
-        l_name: "",
-        number: "",
-        city: "",
-        cnt: "",
-        insta: "",
-        video:null,
         //src: ""
     },
 
@@ -217,10 +217,10 @@ export const def = [
         p_name:"Yan",
         l_name: "Souza",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Florianópolis",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/yan_simas06/",
+        video:"https://youtu.be/US3gW1TlPw0",
         //src: ""
     },
     
@@ -231,7 +231,7 @@ export const def = [
         city: "",
         cnt: "",
         insta: "",
-        video:null,
+        video:"",
         //src: ""
     }
 ]
@@ -241,10 +241,10 @@ export const mid = [
         p_name:"Davi",
         l_name: "Aguiar",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Maceió",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/davi_.aguiar/",
+        video:"http://www.hudl.com/v/2HZ1rn",
         //src: ""
     },
 
@@ -252,20 +252,20 @@ export const mid = [
         p_name:"Davi",
         l_name: "Silva",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/davisilva.2006/",
         video:"",
         //src: ""
     },
 
     {
-        p_name:"Fred",
+        p_name:"Frederico",
         l_name: "Wittler",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Porto Alegre",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/fredwittler/",
         video:"",
         //src: ""
     },
@@ -274,10 +274,10 @@ export const mid = [
         p_name:"Henri",
         l_name: "Marques",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Goiânia",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/henrinmarques_/",
+        video:"https://youtu.be/fEvWmNgmHfU",
         //src: ""
     },
 
@@ -286,8 +286,8 @@ export const mid = [
         l_name: "Stoll",
         number: 0,
         city: "",
-        cnt: "",
-        insta: "",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/jp_stoll/",
         video:"",
         //src: ""
     },
@@ -296,9 +296,9 @@ export const mid = [
         p_name:"Joaquim",
         l_name: "Diniz",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/joaquimdiniz__/",
         video:"",
         //src: ""
     },
@@ -307,9 +307,9 @@ export const mid = [
         p_name:"Lethabo",
         l_name: "Hlakula",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Pretoria",
+        cnt: "South Africa 🇿🇦",
+        insta: "https://www.instagram.com/lethabo5168/",
         video:"",
         //src: ""
     },
@@ -319,19 +319,19 @@ export const mid = [
         l_name: "Pacheco",
         number: 0,
         city: "Curitiba",
-        cnt: "Brazil",
-        insta: "",
-        video:"",
-        src: pacheco
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/matpachecoo_/",
+        video:"https://youtu.be/a6u2uQ6z4Ts",
+        // src: pacheco
     },
 
     {
         p_name:"Raphael",
         l_name: "Santana",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/raphinha.bueno/",
         video:"",
         //src: ""
     },
@@ -340,9 +340,9 @@ export const mid = [
         p_name:"Raul",
         l_name: "Sanseverino",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/raulsanseverino/",
         video:"",
         //src: ""
     },
@@ -352,7 +352,7 @@ export const mid = [
         l_name: "",
         number: 0,
         city: "",
-        cnt: "",
+        cnt: "Brazil 🇧🇷",
         insta: "",
         video:"",
         //src: ""
@@ -365,7 +365,7 @@ export const mid = [
         city: "",
         cnt: "",
         insta: "",
-        video:null,
+        video:"",
         //src: ""
     }
     
@@ -376,10 +376,10 @@ export const fw = [
         p_name:"Arthur",
         l_name: "Cartaxo",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "João Pessoa",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/_arthurcartaxo/",
+        video:"https://youtu.be/S3fjc8WiBCg",
         //src: ""
     },
 
@@ -388,8 +388,8 @@ export const fw = [
         l_name: "Kalisa",
         number: 0,
         city: "",
-        cnt: "",
-        insta: "",
+        cnt: "Rwanda 🇷🇼",
+        insta: "https://www.instagram.com/_c.l.o.v.i.s_/",
         video:"",
         //src: ""
     },
@@ -398,10 +398,10 @@ export const fw = [
         p_name:"Erik",
         l_name: "Zandonade",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Vitória",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/erikzandonade/",
+        video:"https://youtu.be/pJpPAWt19rw",
         //src: ""
     },
 
@@ -409,9 +409,9 @@ export const fw = [
         p_name:"Felipe",
         l_name: "Feijó",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Rio de Janeiro",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/felipefeijocarpenter_/",
         video:"",
         //src: ""
     },
@@ -420,10 +420,10 @@ export const fw = [
         p_name:"Felipe",
         l_name: "Rocha",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "São Paulo",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/feliperocha03/",
+        video:"https://youtu.be/NCpm5qbrt6g",
         //src: ""
     },
 
@@ -431,9 +431,9 @@ export const fw = [
         p_name:"Isaac",
         l_name: "Cubero",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
+        city: "Alajuela",
+        cnt: "Costa Rica 🇨🇷",
+        insta: "https://www.instagram.com/sacocubero/",
         video:"",
         //src: ""
     },
@@ -443,8 +443,8 @@ export const fw = [
         l_name: "Lie",
         number: 0,
         city: "",
-        cnt: "",
-        insta: "",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/nicolaslie__/",
         video:"",
         //src: ""
     },
@@ -453,10 +453,10 @@ export const fw = [
         p_name:"Renan",
         l_name: "Maestri",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "Vitória",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/renan_maestri/",
+        video:"https://youtu.be/Ld6xZX5HrBs",
         //src: ""
     },
 
@@ -464,10 +464,10 @@ export const fw = [
         p_name:"Vitor",
         l_name: "Yoshida",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
+        city: "São Paulo",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/vitoryoshidaa/",
+        video:"https://youtu.be/8cUTWSr9GQI",
         //src: ""
     }
     

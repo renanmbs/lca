@@ -51,13 +51,11 @@ thead h4{
 }
 
 .city{
-    font-weight: bolder;
     font-size: 1.2rem;
     color:black;
 }
 
 .cnt{
-    font-weight: bolder;
     color:black;
 }
 
@@ -122,6 +120,11 @@ thead h4{
 
     .num{
         font-size: 1rem;
+    }
+
+    #information{
+        display: grid;
+        margin: 1.5rem auto;
     }
     
 }

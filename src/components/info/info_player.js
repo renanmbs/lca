@@ -14,6 +14,8 @@ function Playerchecker(){
     "Henri", "Stoll", "Joaquim", "Lethabo", "Pacheco", "Raphael", "Raul", "Arthur", "Clovis", "Erik", "Nicolas",
     "Feijó", "Felipe", "Isaac", "Renan", "Vitor"];
 
+    player_names.sort();
+
     const checkName = ({target}) =>{
         const root = createRoot(document.getElementById('player_stat'));
         const root2 = createRoot(document.getElementById('t_stat'));

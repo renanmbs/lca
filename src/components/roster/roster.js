@@ -43,11 +43,10 @@ const Players = ({ rows }) => {
                         <p className="city">{cell.city}</p>
                         <p className="cnt">{cell.cnt}</p>
 
-                        {cell.video != null ? 
-                        <div>
-                         <a href={cell.insta} target="_blank" rel="noopener noreferrer"><GrInstagram className="inst"/></a>
+                        <a href={cell.insta} target="_blank" rel="noopener noreferrer"><GrInstagram className="inst"/></a>
+
+                        {cell.video !== "" ? 
                          <a href={cell.video} target="_blank" rel="noopener noreferrer"><BsFillCameraReelsFill className="inst"/></a>
-                        </div>
                         :
 
                         <div></div>

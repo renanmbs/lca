@@ -38,6 +38,28 @@ export const goalies = [
 
 export const def = [
     {
+        p_name:"Carlos",
+        l_name: "",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
+
+    {
+        p_name:"Enzo",
+        l_name: "Passos",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
+
+    {
         p_name:"Gabriel",
         l_name: "Lemos",
         number: 0,
@@ -60,17 +82,6 @@ export const def = [
     },
 
     {
-        p_name:"Lucca",
-        l_name: "Czamarka",
-        number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
-        //src: ""
-    },
-
-    {
         p_name:"João Luis",
         l_name: "Castro",
         number: 0,
@@ -82,8 +93,8 @@ export const def = [
     },
 
     {
-        p_name:"Rafael",
-        l_name: "Gerardi",
+        p_name:"João Vitor",
+        l_name: "Guido",
         number: 0,
         city: "",
         cnt: "",
@@ -93,8 +104,30 @@ export const def = [
     },
 
     {
-        p_name:"João Vitor",
-        l_name: "Guido",
+        p_name:"Jonatas",
+        l_name: "",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
+
+    {
+        p_name:"Kagiso",
+        l_name: "Mathabatha",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
+
+    {
+        p_name:"Lucca",
+        l_name: "Czamarka",
         number: 0,
         city: "",
         cnt: "",
@@ -126,6 +159,28 @@ export const def = [
     },
 
     {
+        p_name:"Nicollas",
+        l_name: "Seilhe",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
+
+    {
+        p_name:"Rafael",
+        l_name: "Gerardi",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
+
+    {
         p_name:"Theo",
         l_name: "Luis",
         number: 0,
@@ -147,17 +202,6 @@ export const def = [
         //src: ""
     },
 
-    {
-        p_name:"Kagiso",
-        l_name: "Mathabatha",
-        number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
-        //src: ""
-    },
-    
     {
         p_name:"",
         l_name: "",
@@ -218,6 +262,17 @@ export const mid = [
     {
         p_name:"Fred",
         l_name: "Wittler",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
+
+    {
+        p_name:"Henri",
+        l_name: "Marques",
         number: 0,
         city: "",
         cnt: "",
@@ -290,7 +345,18 @@ export const mid = [
         insta: "",
         video:"",
         //src: ""
-    }
+    },
+
+    {
+        p_name:"Vitor",
+        l_name: "",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        //src: ""
+    },
     
 ]
 

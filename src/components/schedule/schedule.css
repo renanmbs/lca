@@ -75,4 +75,9 @@
         margin: 5% auto;
         box-shadow: 1px 1px 4px white;
     }
+
+    #schedule button{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
 }

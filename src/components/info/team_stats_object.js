@@ -1,12 +1,12 @@
 
 export const stat_for_team = {
     1:{
-        shots:10,
-        target:5,
-        against:3,
-        goals_pro:8,
-        goals_against:1,
-        red:1,
-        yellow:5
+        shots:0,
+        target:0,
+        against:0,
+        goals_pro:0,
+        goals_against:0,
+        red:0,
+        yellow:0
     }
 }

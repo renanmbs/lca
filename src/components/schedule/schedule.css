@@ -3,6 +3,7 @@
     background-color: black;
     min-height: 50vw;
     color: white;
+    text-align: center;
 }
 
 #schedule h2{
@@ -23,6 +24,40 @@
 #schedule_box{
     display: grid;
     place-items: center;
+}
+
+#schedule a{
+    text-decoration: none;
+}
+
+#schedule button{
+    border: solid rgba(81, 0, 0, 1);
+    width: 13rem;
+    height: 2.5rem;
+    transition: 0.4s;
+    background: white;
+    padding: 0;
+    color:  rgba(81, 0, 0, 1);
+    font-size: 22px;
+    outline: none;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 1px 1px 5px black;
+}
+
+#schedule button:hover{
+    border: solid white;
+    color: white;
+    background-color: rgba(81, 0, 0, 1);
+}
+
+#schedule button:active{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+    border: solid rgba(81, 0, 0, 1);
+    filter: drop-shadow(1px 1px 2px white);
 }
 
 #game_box{

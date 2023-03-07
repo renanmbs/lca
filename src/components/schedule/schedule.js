@@ -1,6 +1,7 @@
 import React from "react";
 import "./schedule.css";
 import { games } from "./schedule_obj";
+import sche from "./schedule.jpeg"
 
 export class Schedule extends React.Component{
 
@@ -52,7 +53,8 @@ export class Schedule extends React.Component{
                             <p>{game[3]}</p>
                         </div>
                     ))}
-                    </div>
+                </div>
+                <a href={sche} target="_blank" rel="noopener noreferrer"><button>Download Schedule</button></a>
             </div>
         )
     }

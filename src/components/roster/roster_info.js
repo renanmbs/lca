@@ -209,7 +209,7 @@ export const def = [
         city: "",
         cnt: "",
         insta: "",
-        video:"",
+        video:null,
         //src: ""
     },
 
@@ -231,7 +231,7 @@ export const def = [
         city: "",
         cnt: "",
         insta: "",
-        video:"",
+        video:null,
         //src: ""
     }
 ]
@@ -357,6 +357,17 @@ export const mid = [
         video:"",
         //src: ""
     },
+
+    {
+        p_name:"",
+        l_name: "",
+        number: "",
+        city: "",
+        cnt: "",
+        insta: "",
+        video:null,
+        //src: ""
+    }
     
 ]
 

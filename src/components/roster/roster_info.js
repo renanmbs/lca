@@ -16,10 +16,10 @@ export const goalies = [
         p_name:"Iñigo",
         l_name: "Castro",
         number: 0,
-        city: "",
+        city: "Manila",
         cnt: "Philippines 🇵🇭",
         insta: "https://www.instagram.com/inigocastro13/",
-        video:"",
+        video:"https://youtu.be/Xz4e07NdmHA",
         //src: ""
     },
 

@@ -539,7 +539,7 @@ export const fw = [
         p_name:"Clovis",
         l_name: "Kalisa",
         number: 0,
-        city: "",
+        city: "Kigali",
         cnt: "Rwanda 🇷🇼",
         insta: "https://www.instagram.com/_c.l.o.v.i.s_/",
         video:"",

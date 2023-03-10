@@ -150,7 +150,7 @@ export const goalies = [
         city: "Porto Alegre",
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/diegowittler/",
-        video:"",
+        video:"https://www.youtube.com/watch?v=1xlbRbaFQb8",
         src: diego,
         position: ""
     }

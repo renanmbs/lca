@@ -1,5 +1,123 @@
-//Update players pictures, links, numbers and names
-// import pacheco from "../info/photos/pacheco.png";
+//Updateplayers pictures, links, numbers and names
+import vitor from "./photos/ vitor.jpg";
+import arthur from "./photos/arthur.jpg";
+import be from "./photos/be.jpg";
+import carlos from "./photos/carlos.jpg";
+import clovis from "./photos/clovis.jpg";
+import davia from "./photos/davia.jpg";
+import davis from "./photos/davis.jpg";
+import inigo from "./photos/inigo.jpg";
+import diego from "./photos/diego.jpg";
+import elijah from "./photos/elijah.jpg";
+import enzo from "./photos/enzo.jpg";
+import erik from "./photos/erik.jpg";
+import feijo from "./photos/feijo.jpg";
+import felipao from"./photos/felipao.jpg";
+import fred from "./photos/fred.jpg"
+import gabriel from "./photos/gabriel.jpg";
+import gui from "./photos/gui.jpg";
+import guido from "./photos/guido.jpg";
+import henri from "./photos/henri.jpg";
+import indaias from "./photos/indaias.jpg";
+import isaac from "./photos/isaac.jpg";
+import japa from "./photos/japa.jpg";
+import joca from "./photos/joca.jpg";
+import jola from "./photos/jola.jpg";
+import jon from "./photos/jon.jpg";
+import kg from "./photos/kg.jpg";
+import lethabo from "./photos/lethabo.jpg";
+import lucas from "./photos/lucas.jpeg";
+import matheus from "./photos/matheus.jpg";
+import miguel from "./photos/miguel.jpg";
+import nicollas from "./photos/nicollas.jpg";
+import pacheco from "./photos/pacheco.jpeg";
+import pg from "./photos/pg.jpg";
+import raph from "./photos/raph.jpg";
+import raul from "./photos/raul.jpg";
+import renan from "./photos/renan.jpg";
+import stoll from "./photos/stoll.jpg";
+import theo from "./photos/theo.jpg";
+import thomas from "./photos/thomas.jpg";
+import varanda from "./photos/varanda.jpg";
+import yan from "./photos/yan.jpg";
+
+export const coach = [
+    {
+        p_name:"Alberto",
+        l_name: "Nostre",
+        number: 0,
+        city: "Santos",
+        cnt: "Brazil 🇧🇷",
+        insta: "",
+        video: "",
+        src: "",
+        position: "Assistant Coach"
+    },
+
+    {
+        p_name:"Cyllas",
+        l_name: "Martins",
+        number: 0,
+        city: "São Paulo",
+        cnt: "Brazil 🇧🇷",
+        insta: "",
+        video: "",
+        src: "",
+        position: "Assistant Coach"
+    },
+
+    {
+        p_name:"Lucas",
+        l_name: "Almeida",
+        number: 0,
+        city: "São Paulo",
+        cnt: "Brazil 🇧🇷",
+        insta: "",
+        video: "",
+        src: lucas,
+        position: "Head Coach"
+    },
+
+    {
+        p_name:"Pedro",
+        l_name: "Galícia",
+        number: 0,
+        city: "",
+        cnt: "",
+        insta: "",
+        video: "",
+        src: "",
+        position: "Goalkeeper Coach"
+    },
+
+    {
+        p_name:"Renan",
+        l_name: "Mougenot",
+        number: 0,
+        city: "Curitiba",
+        cnt: "Brazil 🇧🇷",
+        insta: "",
+        video: "",
+        src: "",
+        position: "Assistant Coach"
+    },
+
+
+    {
+        p_name:"",
+        l_name: "",
+        number: "",
+        city: "",
+        cnt: "",
+        insta: "",
+        video:"",
+        src: "",
+        position: ""
+    }
+]
+
+
+
 export const goalies = [
     {
         p_name:"Bernardo",
@@ -9,7 +127,8 @@ export const goalies = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/bemanzano_/",
         video:"https://youtu.be/6LMQUFhtUuE",
-        //src: ""
+        src: be,
+        position: ""
     },
 
     {
@@ -20,7 +139,8 @@ export const goalies = [
         cnt: "Philippines 🇵🇭",
         insta: "https://www.instagram.com/inigocastro13/",
         video:"https://youtu.be/Xz4e07NdmHA",
-        //src: ""
+        src:inigo,
+        position: ""
     },
 
     {
@@ -31,7 +151,8 @@ export const goalies = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/diegowittler/",
         video:"",
-        //src: ""
+        src: diego,
+        position: ""
     }
 
 ]
@@ -39,24 +160,26 @@ export const goalies = [
 export const def = [
     {
         p_name:"Carlos",
-        l_name: "",
+        l_name: "Neto",
         number: 0,
-        city: "",
+        city: "Brasília",
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/_carlosamn_06/",
-        video:"",
-        //src: ""
+        video:"https://drive.google.com/drive/u/0/mobile/folders/1JzomX_T7Oinm0hFATgtxlpl_rV1j7iaw",
+        src: carlos,
+        position: ""
     },
 
     {
         p_name:"Elijah",
-        l_name: "",
+        l_name: "Changaya",
         number: 0,
-        city: "",
+        city: "Blantyre",
         cnt: "Malawi 🇲🇼",
         insta: "https://www.instagram.com/sobopapi/",
-        video:"",
-        //src: ""
+        video:"https://www.fieldlevel.com/app/profile/elijah.changaya/soccermen/videos/1567066",
+        src: elijah,
+        position: ""
     },
 
     {
@@ -67,7 +190,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/enzopasso_/",
         video:"https://youtu.be/5aDkF9o-j2M",
-        //src: ""
+        src: enzo,
+        position: ""
     },
 
     {
@@ -78,7 +202,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/gabriel_lemosp/",
         video:"",
-        //src: ""
+        src: gabriel,
+        position: ""
     },
 
     {
@@ -87,9 +212,10 @@ export const def = [
         number: 0,
         city: "Curitiba",
         cnt: "Brazil 🇧🇷",
-        insta: "",
+        insta: "https://www.instagram.com/guifleisch/",
         video:"",
-        //src: ""
+        src: gui,
+        position: ""
     },
 
     {
@@ -100,7 +226,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/jl.castro_/",
         video:"https://www.youtube.com/watch?v=FmLnoXFfj3s",
-        //src: ""
+        src: jola,
+        position: ""
     },
 
     {
@@ -111,18 +238,20 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/joaovictorvieiraguido/",
         video:"",
-        //src: ""
+        src: guido,
+        position: ""
     },
 
     {
         p_name:"Jonatas",
-        l_name: "",
+        l_name: "Abreu",
         number: 0,
-        city: "",
+        city: "Manaus",
         cnt: "Brazil 🇧🇷",
-        insta: "",
+        insta: "https://www.instagram.com/jonn.highlights/",
         video:"",
-        //src: ""
+        src:jon,
+        position: ""
     },
 
     {
@@ -133,7 +262,8 @@ export const def = [
         cnt: "South Africa 🇿🇦",
         insta: "https://www.instagram.com/askboutkg/",
         video:"https://drive.google.com/file/d/1T4r-FT72Nj2ZJ4BJSPZ53jLY0Dc3aA35/view?usp=drivesdk",
-        //src: ""
+        src: kg,
+        position: ""
     },
 
     {
@@ -144,7 +274,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/lucca_nc/",
         video:"",
-        //src: ""
+        src:pg,
+        position: ""
     },
 
     {
@@ -153,20 +284,22 @@ export const def = [
         number: 0,
         city: "Rio de Janeiro",
         cnt: "Brazil 🇧🇷",
-        insta: "",
+        insta: "https://www.instagram.com/alvarengamatheus_/",
         video:"",
-        //src: ""
+        src:matheus,
+        position: ""
     },
 
     {
         p_name:"Miguel",
         l_name: "Stein",
         number: 0,
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
-        //src: ""
+        city: "São Paulo",
+        cnt: "Brazil",
+        insta: "https://www.instagram.com/miguelstein_/",
+        video:"https://m.youtube.com/watch?v=V9PfaKcHZTg",
+        src:miguel,
+        position: ""
     },
 
     {
@@ -177,7 +310,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/nicollas.seilhe/",
         video:"",
-        //src: ""
+        src:nicollas,
+        position: ""
     },
 
     {
@@ -188,7 +322,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/rafaelgerardi_/",
         video:"https://youtu.be/I-c1QT1GsJU",
-        //src: ""
+        src:varanda,
+        position: ""
     },
 
     {
@@ -199,7 +334,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/theoluis_6/",
         video:"https://youtu.be/zmTGy1MiknY",
-        //src: ""
+        src:theo,
+        position: ""
     },
 
     {
@@ -210,7 +346,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/thomasmarins/",
         video:"",
-        //src: ""
+        src:thomas,
+        position: ""
     },
 
     {
@@ -221,7 +358,8 @@ export const def = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/yan_simas06/",
         video:"https://youtu.be/US3gW1TlPw0",
-        //src: ""
+        src:yan,
+        position: ""
     },
     
     {
@@ -232,7 +370,8 @@ export const def = [
         cnt: "",
         insta: "",
         video:"",
-        //src: ""
+        src: "",
+        position: ""
     }
 ]
 
@@ -245,7 +384,8 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/davi_.aguiar/",
         video:"http://www.hudl.com/v/2HZ1rn",
-        //src: ""
+        src: davia,
+        position: ""
     },
 
     {
@@ -256,7 +396,8 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/davisilva.2006/",
         video:"",
-        //src: ""
+        src: davis,
+        position: ""
     },
 
     {
@@ -267,7 +408,8 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/fredwittler/",
         video:"",
-        //src: ""
+        src: fred,
+        position: ""
     },
 
     {
@@ -278,7 +420,8 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/henrinmarques_/",
         video:"https://youtu.be/fEvWmNgmHfU",
-        //src: ""
+        src:henri,
+        position: ""
     },
 
     {
@@ -289,7 +432,8 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/jp_stoll/",
         video:"",
-        //src: ""
+        src:stoll,
+        position: ""
     },
 
     {
@@ -300,7 +444,8 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/joaquimdiniz__/",
         video:"",
-        //src: ""
+        src:joca,
+        position: ""
     },
 
     {
@@ -311,7 +456,8 @@ export const mid = [
         cnt: "South Africa 🇿🇦",
         insta: "https://www.instagram.com/lethabo5168/",
         video:"",
-        //src: ""
+        src:lethabo,
+        position: ""
     },
 
     {
@@ -322,7 +468,8 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/matpachecoo_/",
         video:"https://youtu.be/a6u2uQ6z4Ts",
-        // src: pacheco
+        src: pacheco,
+        position: ""
     },
 
     {
@@ -333,7 +480,8 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/raphinha.bueno/",
         video:"",
-        //src: ""
+        src:raph,
+        position: ""
     },
 
     {
@@ -344,18 +492,20 @@ export const mid = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/raulsanseverino/",
         video:"",
-        //src: ""
+        src:raul,
+        position: ""
     },
 
     {
         p_name:"Vitor",
-        l_name: "",
+        l_name: "Martins",
         number: 0,
-        city: "",
+        city: "Rio de Janeiro",
         cnt: "Brazil 🇧🇷",
-        insta: "",
+        insta: "https://www.instagram.com/vt.martins_/",
         video:"",
-        //src: ""
+        src: vitor,
+        position: ""
     },
 
     {
@@ -366,7 +516,8 @@ export const mid = [
         cnt: "",
         insta: "",
         video:"",
-        //src: ""
+        src:"",
+        position: ""
     }
     
 ]
@@ -380,7 +531,8 @@ export const fw = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/_arthurcartaxo/",
         video:"https://youtu.be/S3fjc8WiBCg",
-        //src: ""
+        src: arthur,
+        position: ""
     },
 
     {
@@ -391,7 +543,8 @@ export const fw = [
         cnt: "Rwanda 🇷🇼",
         insta: "https://www.instagram.com/_c.l.o.v.i.s_/",
         video:"",
-        //src: ""
+        src: clovis,
+        position: ""
     },
 
     {
@@ -402,7 +555,8 @@ export const fw = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/erikzandonade/",
         video:"https://youtu.be/pJpPAWt19rw",
-        //src: ""
+        src:erik,
+        position: ""
     },
 
     {
@@ -412,8 +566,9 @@ export const fw = [
         city: "Rio de Janeiro",
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/felipefeijocarpenter_/",
-        video:"",
-        //src: ""
+        video:"https://www.instagram.com/reel/CpimsX4N9Qq/?igshid=MDJmNzVkMjY=",
+        src:feijo,
+        position: ""
     },
 
     {
@@ -424,7 +579,8 @@ export const fw = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/feliperocha03/",
         video:"https://youtu.be/NCpm5qbrt6g",
-        //src: ""
+        src:felipao,
+        position: ""
     },
 
     {
@@ -435,7 +591,8 @@ export const fw = [
         cnt: "Costa Rica 🇨🇷",
         insta: "https://www.instagram.com/sacocubero/",
         video:"",
-        //src: ""
+        src:isaac,
+        position: ""
     },
 
     {
@@ -446,7 +603,8 @@ export const fw = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/nicolaslie__/",
         video:"",
-        //src: ""
+        src:indaias,
+        position: ""
     },
 
     {
@@ -457,7 +615,8 @@ export const fw = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/renan_maestri/",
         video:"https://youtu.be/Ld6xZX5HrBs",
-        //src: ""
+        src:renan,
+        position: ""
     },
 
     {
@@ -468,7 +627,8 @@ export const fw = [
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/vitoryoshidaa/",
         video:"https://youtu.be/8cUTWSr9GQI",
-        //src: ""
+        src: japa,
+        position: ""
     }
     
 ]

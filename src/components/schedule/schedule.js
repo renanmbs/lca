@@ -15,6 +15,7 @@ export class Schedule extends React.Component{
         let place = "";
         let score_lca = "";
         let score_away = "";
+        let jv = "";
     
         for(const game in games){
             away_team = games[game].away;
@@ -23,8 +24,9 @@ export class Schedule extends React.Component{
             place = games[game].place;
             score_lca = games[game].score_lca;
             score_away = games[game].score_away;
+            jv = games[game].jv;
 
-            games_array.push([away_team,date,time,place,score_lca,score_away]);
+            games_array.push([away_team,date,time,place,score_lca,score_away,jv]);
         }
     
         this.state = { games_array };
@@ -44,8 +46,11 @@ export class Schedule extends React.Component{
                                     game[4] == null ? 
                                         <p>Game Not Yet Played</p>    
         
-                                    :
-                                        <p>{game[4]} x {game[5]}</p>
+                                    :   
+                                    <div>
+                                        <p>Varsity: {game[4]} x {game[5]}</p>
+                                        <p>JV: {game[6]}</p>
+                                    </div>
                                 }
                             </div>
                             <p>{game[1]}</p>

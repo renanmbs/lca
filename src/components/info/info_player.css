@@ -53,7 +53,7 @@ form{
 
 #area{
     margin: 1% auto;
-    height: 33vw;
+    height: 39vw;
     width: 40rem;
     background-color: black;
     box-shadow: 1px 1px 7px black;
@@ -120,8 +120,8 @@ form{
 }
 
 #area img{
-    height: 10rem;
-    width: 11rem;
+    height: 14rem;
+    width: 14rem;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 0;
@@ -146,6 +146,10 @@ form{
 
 .stat{
     color: white;
+}
+
+.stat p{
+    margin-bottom: 1%;
 }
 
 

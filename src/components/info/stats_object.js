@@ -1,19 +1,58 @@
-// import pach from "./photos/""eco.png";
-// import davis from "./photos/davi s.png";
+import vitor from "../roster/photos/ vitor.jpg";
+import arthur from "../roster/photos/arthur.jpg";
+import be from "../roster/photos/be.jpg";
+import carlos from "../roster/photos/carlos.jpg";
+import clovis from "../roster/photos/clovis.jpg";
+import davia from "../roster/photos/davia.jpg";
+import davis from "../roster/photos/davis.jpg";
+import inigo from "../roster/photos/inigo.jpg";
+import diego from "../roster/photos/diego.jpg";
+import elijah from "../roster/photos/elijah.jpg";
+import enzo from "../roster/photos/enzo.jpg";
+import erik from "../roster/photos/erik.jpg";
+import feijo from "../roster/photos/feijo.jpg";
+import felipao from"../roster/photos/felipao.jpg";
+import fred from "../roster/photos/fred.jpg"
+import gabriel from "../roster/photos/gabriel.jpg";
+import gui from "../roster/photos/gui.jpg";
+import guido from "../roster/photos/guido.jpg";
+import henri from "../roster/photos/henri.jpg"
+import indaias from "../roster/photos/indaias.jpg"
+import isaac from "../roster/photos/isaac.jpg"
+import japa from "../roster/photos/japa.jpg"
+import joca from "../roster/photos/joca.jpg"
+import jola from "../roster/photos/jola.jpg"
+import jon from "../roster/photos/jon.jpg"
+import kg from "../roster/photos/kg.jpg"
+import lethabo from "../roster/photos/lethabo.jpg"
+import matheus from "../roster/photos/matheus.jpg"
+import miguel from "../roster/photos/miguel.jpg"
+import nicollas from "../roster/photos/nicollas.jpg"
+import pacheco from "../roster/photos/pacheco.jpeg"
+import pg from "../roster/photos/pg.jpg"
+import raph from "../roster/photos/raph.jpg"
+import raul from "../roster/photos/raul.jpg"
+import renan from "../roster/photos/renan.jpg"
+import stoll from "../roster/photos/stoll.jpg"
+import theo from "../roster/photos/theo.jpg"
+import thomas from "../roster/photos/thomas.jpg"
+import varanda from "../roster/photos/varanda.jpg"
+import yan from "../roster/photos/yan.jpg"
+
 
 export const stats = {
 
         1:{
                 p_name: "Bernardo",
-                image: "",
+                image: be,
                 goals: null,
                 assists: null,
-                clean:0
+                clean:1
         },
 
         2:{
                 p_name: "Iñigo",
-                image: "",
+                image: inigo,
                 goals: null,
                 assists: null,
                 clean:0
@@ -21,222 +60,274 @@ export const stats = {
 
         3:{
                 p_name: "Diego",
-                image: "",
+                image: diego,
                 goals: null,
                 assists: null,
-                clean:0
+                clean:1
         },
 
 
         4:{
                 p_name: "Gabriel",
-                image: "", 
+                image: gabriel, 
                 goals: 0,
                 assists: 0
         },
 
         5:{
                 p_name: "Guilherme",
-                image: "", 
+                image: gui, 
                 goals: 0,
                 assists: 0
         },
 
         6:{
                 p_name: "PG",
-                image: "", 
+                image: pg, 
                 goals: 0,
                 assists: 0
         },
 
         7:{
                 p_name: "Jola",
-                image: "", 
+                image: jola, 
                 goals: 0,
                 assists: 0
         },
 
         8:{
                 p_name: "Varanda",
-                image: "", 
+                image: varanda, 
                 goals: 0,
                 assists: 0
         },
 
         9:{
                 p_name: "Guido",
-                image: "", 
+                image: guido, 
                 goals: 0,
                 assists: 0
         },
 
         10:{
                 p_name: "Matheus",
-                image: "", 
-                goals: 0,
+                image: matheus, 
+                goals: 1,
                 assists: 0
         },
 
         11:{
                 p_name: "Miguel",
-                image: "", 
+                image: miguel, 
                 goals: 0,
                 assists: 0
         },
 
         12:{
                 p_name: "Nicolas",
-                image: "", 
-                goals: 0,
+                image: indaias, 
+                goals: 1,
                 assists: 0
         },
 
         13:{
                 p_name: "Theo",
-                image: "", 
-                goals: 0,
-                assists: 0
+                image: theo, 
+                goals: 1,
+                assists: 1
         },
 
         14:{
                 p_name: "Thomas",
-                image: "", 
+                image: thomas, 
                 goals: 0,
                 assists: 0
         },
 
         15:{
                 p_name: "KG",
-                image: "", 
+                image: kg, 
                 goals: 0,
                 assists: 0
         },
 
         16:{
                 p_name: "Yan",
-                image: "", 
-                goals: 0,
-                assists: 0
+                image: yan, 
+                goals: 1,
+                assists: 1
         },
 
         17:{
                 p_name: "Davi A",
-                image: "", 
-                goals: 0,
+                image:davia, 
+                goals: 1,
                 assists: 0
         },
 
         18:{
                 p_name: "Davi S",
-                image: "", 
+                image: davis, 
                 goals: 0,
                 assists: 0
         },
 
         19:{
                 p_name: "Fred",
-                image: "", 
-                goals: 0,
+                image: fred, 
+                goals: 2,
                 assists: 0
         },
 
         20:{
                 p_name: "Stoll",
-                image: "", 
+                image: stoll, 
                 goals: 0,
-                assists: 0
+                assists: 1
         },
 
         21:{
                 p_name: "Joaquim",
-                image: "", 
+                image: joca, 
                 goals: 0,
                 assists: 0
         },
 
         22:{
                 p_name: "Lethabo",
-                image: "", 
+                image: lethabo, 
                 goals: 0,
                 assists: 0
         },
 
         23:{
                 p_name: "Pacheco",
-                image: "", 
-                goals: 0,
+                image: pacheco, 
+                goals: 1,
                 assists: 0
         },
 
         24:{
                 p_name: "Raphael",
-                image: "", 
+                image: raph, 
                 goals: 0,
                 assists: 0
         },
 
         25:{
                 p_name: "Raul",
-                image: "", 
+                image: raul, 
                 goals: 0,
                 assists: 0
         },
 
         26:{
                 p_name: "Arthur",
-                image: "", 
-                goals: 0,
+                image: arthur, 
+                goals: 1,
                 assists: 0
         },
 
         27:{
                 p_name: "Clovis",
-                image: "", 
-                goals: 0,
+                image: clovis, 
+                goals: 2,
                 assists: 0
         },
 
         28:{
                 p_name: "Erik",
-                image: "", 
+                image: erik, 
                 goals: 0,
                 assists: 0
         },
 
         29:{
                 p_name: "Feijó",
-                image: "", 
+                image: feijo, 
                 goals: 0,
                 assists: 0
         },
 
         30:{
                 p_name: "Felipe",
-                image: "", 
-                goals: 0,
+                image: felipao, 
+                goals: 4,
                 assists: 0
         },
 
         31:{
                 p_name: "Isaac",
-                image: "", 
-                goals: 0,
-                assists: 0
+                image: isaac, 
+                goals: 1,
+                assists: 1
         },
 
         32:{
                 p_name: "Renan",
-                image: "", 
+                image: renan, 
+                goals: 1,
+                assists: 2
+        },
+
+        33:{
+                p_name: "Vitor Y",
+                image: japa, 
+                goals: 1,
+                assists: 1
+        },
+
+        34:{
+                p_name: "Carlos",
+                image: carlos, 
                 goals: 0,
                 assists: 0
         },
 
-        33:{
-                p_name: "Vitor",
-                image: "", 
+        35:{
+                p_name: "Elijah",
+                image: elijah, 
                 goals: 0,
                 assists: 0
-        }
+        },
+
+        36:{
+                p_name: "Enzo",
+                image: enzo, 
+                goals: 0,
+                assists: 0
+        },
+
+        37:{
+                p_name: "Nicollas",
+                image: nicollas, 
+                goals: 0,
+                assists: 0
+        },
+
+        38:{
+                p_name: "Jonatas",
+                image: jon, 
+                goals: 0,
+                assists: 0
+        },
+
+        39:{
+                p_name: "Henri",
+                image: henri, 
+                goals: 0,
+                assists: 0
+        },
+
+        40:{
+                p_name: "Vitor M",
+                image: vitor, 
+                goals: 0,
+                assists: 0
+        },
+
+
+
 
 }
 

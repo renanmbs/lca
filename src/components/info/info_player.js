@@ -12,7 +12,7 @@ function Playerchecker(){
     let player_names = ["Bernardo", "Iñigo", "Elijah", "Diego","Carlos", "Enzo", "Gabriel", "Guilherme", "PG", "Jola","Jonatas", "Varanda", "Guido", "Matheus",
     "Miguel", "Nicollas", "Theo", "Thomas", "KG", "Yan", "Davi A", "Davi S", "Fred",
     "Henri", "Stoll", "Joaquim", "Lethabo", "Pacheco", "Raphael", "Raul", "Arthur", "Clovis", "Erik", "Nicolas",
-    "Feijó", "Felipe", "Isaac", "Renan", "Vitor"];
+    "Feijó", "Felipe", "Isaac", "Renan", "Vitor Y", "Vitor M"];
 
     player_names.sort();
 

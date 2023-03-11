@@ -4,6 +4,7 @@ import All from "./photos/img1.jpeg";
 import pc from "./photos/IMG_1236.jpeg";
 import red from "./photos/IMG_8876.jpeg";
 import afs from "./photos/IMG_0957.jpeg";
+import gc from "./photos/IMG_6657.jpeg"
 
 export let midia = [
     {
@@ -41,4 +42,18 @@ export let midia = [
         link: "https://drive.google.com/drive/folders/17QSxMmc6_OrmsIyIP2F4kjB53PH98nuR",
         image: red
     },
+
+    {
+        caption:"LCA Red x LCA White",
+        link: "https://drive.google.com/drive/folders/17QSxMmc6_OrmsIyIP2F4kjB53PH98nuR",
+        image: red
+    },
+
+    {
+        caption:"LCA x Green Canyon",
+        link: "https://drive.google.com/drive/u/0/folders/1rBBlJemVcAUDXP2cINeXJ67xgkfvc5ao",
+        image: gc
+    },
+
+
 ]

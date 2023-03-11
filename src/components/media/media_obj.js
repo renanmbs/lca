@@ -44,12 +44,6 @@ export let midia = [
     },
 
     {
-        caption:"LCA Red x LCA White",
-        link: "https://drive.google.com/drive/folders/17QSxMmc6_OrmsIyIP2F4kjB53PH98nuR",
-        image: red
-    },
-
-    {
         caption:"LCA x Green Canyon",
         link: "https://drive.google.com/drive/u/0/folders/1rBBlJemVcAUDXP2cINeXJ67xgkfvc5ao",
         image: gc

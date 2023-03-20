@@ -47,7 +47,7 @@ export const stats = {
                 image: be,
                 goals: null,
                 assists: null,
-                clean:2
+                clean:4
         },
 
         2:{
@@ -55,7 +55,7 @@ export const stats = {
                 image: inigo,
                 goals: null,
                 assists: null,
-                clean:0
+                clean:3
         },
 
         3:{
@@ -63,7 +63,7 @@ export const stats = {
                 image: diego,
                 goals: null,
                 assists: null,
-                clean:1
+                clean:3
         },
 
 

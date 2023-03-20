@@ -7,7 +7,7 @@ export let games = [
         place: "Home",
         score_lca: 5,
         score_away: 0,
-        jv: "11x0"
+        jv: "11 x 0"
     },
 
     {
@@ -17,7 +17,7 @@ export let games = [
         place: "Away",
         score_lca: 3,
         score_away: 1,
-        jv: "0x0"
+        jv: "0 x 0"
     },
 
     {
@@ -25,8 +25,9 @@ export let games = [
         date: "3/14",
         time: "3:00pm",
         place: "Away",
-        score_lca: null,
-        score_away: null
+        score_lca: 3,
+        score_away: 0,
+        jv: "4 x 0"
     },
 
     {
@@ -34,17 +35,19 @@ export let games = [
         date: "3/16",
         time: "7:00pm",
         place: "Away",
-        score_lca: null,
-        score_away: null
+        score_lca: 8,
+        score_away: 0,
+        jv: "6 x 0"
     },
 
     {
         away: "Ogden",
         date: "3/18",
-        time: "TBA",
+        time: "6:30pm",
         place: "Home",
-        score_lca: null,
-        score_away: null
+        score_lca: 2,
+        score_away: 0,
+        jv: "0 x 0"
     },
 
     {

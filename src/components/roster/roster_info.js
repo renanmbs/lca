@@ -40,6 +40,9 @@ import theo from "./photos/theo.jpg";
 import thomas from "./photos/thomas.jpg";
 import varanda from "./photos/varanda.jpg";
 import yan from "./photos/yan.jpg";
+import cyllas from "./photos/cyllas.jpg";
+import renan2 from "./photos/renan2.jpg";
+import alberto from "./photos/alberto.jpg";
 
 export const coach = [
     {
@@ -50,7 +53,7 @@ export const coach = [
         cnt: "Brazil 🇧🇷",
         insta: "",
         video: "",
-        src: "",
+        src: alberto,
         position: "Assistant Coach"
     },
 
@@ -62,7 +65,7 @@ export const coach = [
         cnt: "Brazil 🇧🇷",
         insta: "",
         video: "",
-        src: "",
+        src: cyllas,
         position: "Assistant Coach"
     },
 
@@ -98,7 +101,7 @@ export const coach = [
         cnt: "Brazil 🇧🇷",
         insta: "",
         video: "",
-        src: "",
+        src: renan2,
         position: "Assistant Coach"
     },
 
@@ -428,7 +431,7 @@ export const mid = [
         p_name:"João Pedro",
         l_name: "Stoll",
         number: 0,
-        city: "",
+        city: "São Paulo",
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/jp_stoll/",
         video:"",

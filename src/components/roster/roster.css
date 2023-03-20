@@ -61,7 +61,7 @@ thead h4{
 
 #information{
     display: grid;
-    margin: 1rem auto;
+    margin: 1rem 0;
 }
 
 .pic{
@@ -82,13 +82,15 @@ thead h4{
 
 .inst{
     font-size: 1.8rem;
-    margin: 2% auto;
+    margin: 2% 0;
     display: none;
 }
 
 @media only screen and (max-width:660px){
     .pic{
-        height: 8rem;
+        height: 9rem;
+        margin: 1% 2%;
+
     }
 
     .inst{

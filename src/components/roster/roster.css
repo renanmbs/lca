@@ -89,7 +89,6 @@ thead h4{
 @media only screen and (max-width:660px){
     .pic{
         height: 8rem;
-        margin: 1%;
     }
 
     .inst{
@@ -124,7 +123,6 @@ thead h4{
 
     #information{
         display: grid;
-        margin: 1.5rem auto;
     }
     
 }

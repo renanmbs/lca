@@ -231,7 +231,7 @@ export const stats = {
         27:{
                 p_name: "Clovis",
                 image: clovis, 
-                goals: 4,
+                goals: 5,
                 assists: 0
         },
 
@@ -252,8 +252,8 @@ export const stats = {
         30:{
                 p_name: "Felipe",
                 image: felipao, 
-                goals: 8,
-                assists: 0
+                goals: 9,
+                assists: 2
         },
 
         31:{
@@ -316,7 +316,7 @@ export const stats = {
                 p_name: "Henri",
                 image: henri, 
                 goals: 0,
-                assists: 0
+                assists: 1
         },
 
         40:{

@@ -45,7 +45,7 @@ export let midia = [
 
     {
         caption:"LCA x Ogden",
-        link: "https://drive.google.com/drive/folders/1mNcrFMVxavGyuM2qvI0GcZuHLEr1Gu6V",
+        link: "https://app.veo.co/matches/20230112-48c5849a-fb7a-44ed-bf50-c0eab6210845-212fa2e4/",
         image: og
     },
 

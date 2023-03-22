@@ -187,6 +187,18 @@ export const def = [
 
     {
         p_name:"Enzo",
+        l_name: "Mello",
+        number: 0,
+        city: "Cuiabá",
+        cnt: "Brazil 🇧🇷",
+        insta: "https://www.instagram.com/enzomell0/",
+        video:"",
+        src: "",
+        position: ""
+    },
+
+    {
+        p_name:"Enzo",
         l_name: "Passos",
         number: 0,
         city: "Rio de Janeiro",
@@ -362,18 +374,6 @@ export const def = [
         insta: "https://www.instagram.com/yan_simas06/",
         video:"https://youtu.be/US3gW1TlPw0",
         src:yan,
-        position: ""
-    },
-    
-    {
-        p_name:"",
-        l_name: "",
-        number: "",
-        city: "",
-        cnt: "",
-        insta: "",
-        video:"",
-        src: "",
         position: ""
     }
 ]

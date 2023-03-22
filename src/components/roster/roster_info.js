@@ -602,7 +602,7 @@ export const fw = [
         p_name:"Nicolas",
         l_name: "Lie",
         number: 0,
-        city: "São José dos Campos",
+        city: "Indaiatuba",
         cnt: "Brazil 🇧🇷",
         insta: "https://www.instagram.com/nicolaslie__/",
         video:"",

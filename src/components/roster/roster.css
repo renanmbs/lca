@@ -82,14 +82,14 @@ thead h4{
 
 .inst{
     font-size: 1.8rem;
-    margin: 2% 0;
+    margin: 2% auto;
     display: none;
 }
 
 @media only screen and (max-width:660px){
     .pic{
         height: 9rem;
-        margin: 1% 2%;
+        margin: 1% auto;
 
     }
 

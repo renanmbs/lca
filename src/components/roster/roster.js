@@ -47,7 +47,6 @@ const Players = ({ rows }) => {
 
                         <p className="na">{cell.p_name}</p>
                         <p className="la">{cell.l_name}</p>
-                        {/* <p className="num">{cell.number}</p> */}
                         <p className="city">{cell.city}</p>
                         <p className="cnt">{cell.cnt}</p>
 

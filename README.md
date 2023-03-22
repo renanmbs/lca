@@ -68,6 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# lcamsoccer
-# lca
-# lca
+ 
+<p>Web App for my volunteering job as soccer assistant coach. It contains information about the team, like social media, roster, media and much more.
+Using javascript objects, I also keep track of season statistics for each player and for the team as a whole, and it updates in the react app.</p>
+
+<a href="https://lcamsoccer.netlify.app/" target="_blank">Live</a>

@@ -246,7 +246,7 @@ export const def = [
     },
 
     {
-        p_name:"João Vitor",
+        p_name:"João Victor",
         l_name: "Guido",
         number: 0,
         city: "Vitória",

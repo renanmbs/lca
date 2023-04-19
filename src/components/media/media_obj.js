@@ -4,6 +4,12 @@ import All from "./photos/img1.jpeg";
 import cv from "./photos/IMG_7804.jpeg";
 import og from "./photos/IMG_0035.jpeg";
 import mr from "./photos/IMG_0830.jpeg";
+import cd from "./photos/IMG_7807.jpeg";
+import gc from "./photos/IMG_7805.jpeg";
+import br from "./photos/IMG_7813.jpeg";
+import rd from "./photos/IMG_7809.jpeg";
+import rh from "./photos/IMG_7812.jpeg";
+import al from "./photos/PHOTO-2023-04-19-12-48-26.jpeg";
 
 export let midia = [
     {
@@ -37,21 +43,21 @@ export let midia = [
     {
         caption:"LCA x Cedar",
         link: "https://app.veo.co/matches/layton-christian-academy-20230308-zm_cedar-city-chs_varsity-at-layton-christian-df1b799d/",
-        image: "",
+        image: cd,
         jv: ""
     },
 
     {
         caption:"LCA x Green Canyon",
         link: "https://www.youtube.com/watch?v=0nKwqM0BxI0",
-        image: "",
+        image: gc,
         jv: ""
     },
 
     {
         caption:"LCA x Bear River",
         link: "https://youtube.com/live/T1REThuF_3I?feature=share",
-        image: "",
+        image: br,
         jv: ""
     },
 
@@ -72,21 +78,21 @@ export let midia = [
     {
         caption:"LCA x Ridgeline",
         link: "https://app.veo.co/matches/20230401-lca-vs-ridgeline-8ea74a88/",
-        image: "",
+        image: rd,
         jv: "https://app.veo.co/matches/20230323-jv-lca-vs-ridgeline-1e2c1801/"
     },
 
     {
         caption:"LCA x Rowland Hall",
         link: "https://app.veo.co/matches/20230414-lca-vs-rowland-hall-ab14d4be/",
-        image: "",
+        image: rh,
         jv: "https://app.veo.co/matches/20230415-jv-lca-vs-rowland-hall-a90c85cd/"
     },
 
     {
         caption:"LCA x Alta",
         link: "https://app.veo.co/matches/20230418-lca-vs-alta-96bf8191/",
-        image: "",
+        image: al,
         jv: "https://app.veo.co/matches/20230419-jv-lca-vs-alta-927ed229/"
     },
 

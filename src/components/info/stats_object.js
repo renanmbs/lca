@@ -112,7 +112,7 @@ export const stats = {
         10:{
                 p_name: "Matheus",
                 image: matheus, 
-                goals: 1,
+                goals: 2,
                 assists: 0
         },
 
@@ -189,7 +189,7 @@ export const stats = {
         21:{
                 p_name: "Joaquim",
                 image: joca, 
-                goals: 0,
+                goals: 2,
                 assists: 0
         },
 
@@ -224,7 +224,7 @@ export const stats = {
         26:{
                 p_name: "Arthur",
                 image: arthur, 
-                goals: 1,
+                goals: 2,
                 assists: 1
         },
 

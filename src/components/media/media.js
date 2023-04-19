@@ -9,17 +9,16 @@ export class ShowMedia extends React.Component{
         let caption = "";
         let image = "";
         let link = "";
+        let jv = "";
         let midia_array = [];
 
         for(const loop in midia){
             caption = midia[loop].caption;
             image = midia[loop].image;
             link = midia[loop].link;
-
-            console.log(link);
+            jv = midia[loop].jv;
             
-            midia_array.push([caption,image,link]);
-            console.log(midia_array);
+            midia_array.push([caption,image,link, jv]);
         }
 
         this.state = {midia_array};
@@ -38,7 +37,7 @@ export class ShowMedia extends React.Component{
                                     <figcaption>{midia[0]}</figcaption>
                                 </figure>
                             </a>
-
+                            {midia[3] === "" ? "" : <a className="jv" href={midia[3]} target="_blank" rel="noopener noreferrer">JV's Game</a>}
                         </div>
                     ))}
                 </div>

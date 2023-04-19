@@ -37,6 +37,11 @@
     margin: 1% auto;
 }
 
+.jv{
+    font-style: italic;
+    font-size: small;
+}
+
 @media only screen and (max-width:660px){
 
     .image_box img{

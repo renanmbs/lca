@@ -19,6 +19,7 @@
 .image_box{
     border: solid rgb(102, 0, 0);
     text-align: center;
+    height: 18.5rem;
     width: 50%;
     margin: 1% auto;
     background-color: black;
@@ -53,7 +54,7 @@
 
     .image_box{
         margin: 5% auto;
-        height: 12.8rem;
+        height: 14rem;
         width: 20rem;
     }
     

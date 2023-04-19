@@ -47,7 +47,7 @@ export const stats = {
                 image: be,
                 goals: null,
                 assists: null,
-                clean:4
+                clean:6
         },
 
         2:{
@@ -92,7 +92,7 @@ export const stats = {
                 p_name: "Jola",
                 image: jola, 
                 goals: 0,
-                assists: 0
+                assists: 2
         },
 
         8:{
@@ -134,14 +134,14 @@ export const stats = {
                 p_name: "Theo",
                 image: theo, 
                 goals: 2,
-                assists: 5
+                assists: 6
         },
 
         14:{
                 p_name: "Thomas",
                 image: thomas, 
                 goals: 1,
-                assists: 1
+                assists: 2
         },
 
         15:{
@@ -169,14 +169,14 @@ export const stats = {
                 p_name: "Davi S",
                 image: davis, 
                 goals: 1,
-                assists: 0
+                assists: 1
         },
 
         19:{
                 p_name: "Fred",
                 image: fred, 
                 goals: 6,
-                assists: 2
+                assists: 3
         },
 
         20:{
@@ -204,7 +204,7 @@ export const stats = {
                 p_name: "Pacheco",
                 image: pacheco, 
                 goals: 2,
-                assists: 1
+                assists: 2
         },
 
         24:{
@@ -238,7 +238,7 @@ export const stats = {
         28:{
                 p_name: "Erik",
                 image: erik, 
-                goals: 2,
+                goals: 3,
                 assists: 0
         },
 
@@ -260,21 +260,21 @@ export const stats = {
                 p_name: "Isaac",
                 image: isaac, 
                 goals: 4,
-                assists: 1
+                assists: 2
         },
 
         32:{
                 p_name: "Renan",
                 image: renan, 
-                goals: 3,
-                assists: 3
+                goals: 4,
+                assists: 4
         },
 
         33:{
                 p_name: "Vitor Y",
                 image: japa, 
                 goals: 7,
-                assists: 1
+                assists: 2
         },
 
         34:{

@@ -43,6 +43,7 @@ import yan from "./photos/yan.jpg";
 import cyllas from "./photos/cyllas.jpg";
 import renan2 from "./photos/renan2.jpg";
 import alberto from "./photos/alberto.jpg";
+import pedro from "./photos/pedro.jpg";
 
 export const coach = [
     {
@@ -89,7 +90,7 @@ export const coach = [
         cnt: "Mexico 🇲🇽",
         insta: "",
         video: "",
-        src: "",
+        src: pedro,
         position: "Goalkeeper Coach"
     },
 

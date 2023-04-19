@@ -7,6 +7,7 @@ import { fw } from "./roster_info";
 import { GrInstagram } from "react-icons/gr";
 import {BsFillCameraReelsFill} from "react-icons/bs";
 import { coach } from "./roster_info";
+import team from "./photos/team.jpg";
 
 
 //Work on correctly printing roster table
@@ -16,6 +17,7 @@ export class Roster extends React.Component{
     render(){
         return(
             <div id="tab">
+                <img className="team" src={team} alt={"Full Roster"} />
                 <Table/>
             </div>
         )

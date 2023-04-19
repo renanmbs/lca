@@ -168,7 +168,7 @@ export const stats = {
         18:{
                 p_name: "Davi S",
                 image: davis, 
-                goals: 0,
+                goals: 1,
                 assists: 0
         },
 
@@ -203,7 +203,7 @@ export const stats = {
         23:{
                 p_name: "Pacheco",
                 image: pacheco, 
-                goals: 1,
+                goals: 2,
                 assists: 1
         },
 
@@ -238,14 +238,14 @@ export const stats = {
         28:{
                 p_name: "Erik",
                 image: erik, 
-                goals: 0,
+                goals: 2,
                 assists: 0
         },
 
         29:{
                 p_name: "Feijó",
                 image: feijo, 
-                goals: 2,
+                goals: 3,
                 assists: 0
         },
 
@@ -259,21 +259,21 @@ export const stats = {
         31:{
                 p_name: "Isaac",
                 image: isaac, 
-                goals: 2,
+                goals: 4,
                 assists: 1
         },
 
         32:{
                 p_name: "Renan",
                 image: renan, 
-                goals: 1,
+                goals: 3,
                 assists: 3
         },
 
         33:{
                 p_name: "Vitor Y",
                 image: japa, 
-                goals: 3,
+                goals: 7,
                 assists: 1
         },
 

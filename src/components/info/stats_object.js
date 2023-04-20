@@ -126,8 +126,8 @@ export const stats = {
         12:{
                 p_name: "Nicolas",
                 image: indaias, 
-                goals: 1,
-                assists: 0
+                goals: 2,
+                assists: 1
         },
 
         13:{

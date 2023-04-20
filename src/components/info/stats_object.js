@@ -210,7 +210,7 @@ export const stats = {
         24:{
                 p_name: "Raphael",
                 image: raph, 
-                goals: 0,
+                goals: 1,
                 assists: 4
         },
 
@@ -316,7 +316,7 @@ export const stats = {
                 p_name: "Henri",
                 image: henri, 
                 goals: 0,
-                assists: 1
+                assists: 2
         },
 
         40:{

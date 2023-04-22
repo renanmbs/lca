@@ -98,7 +98,7 @@ export const stats = {
         8:{
                 p_name: "Varanda",
                 image: varanda, 
-                goals: 0,
+                goals: 2,
                 assists: 0
         },
 
@@ -322,7 +322,7 @@ export const stats = {
         40:{
                 p_name: "Vitor M",
                 image: vitor, 
-                goals: 2,
+                goals: 4,
                 assists: 0
         },
 

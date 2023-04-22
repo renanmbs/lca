@@ -123,8 +123,9 @@ export let games = [
         date: "4/20",
         time: "3:30pm",
         place: "Away",
-        score_lca: null,
-        score_away: null
+        score_lca: 1,
+        score_away: 0,
+        jv: "2 x 0"
     },
 
     {

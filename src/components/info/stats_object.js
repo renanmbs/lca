@@ -63,7 +63,7 @@ export const stats = {
                 image: diego,
                 goals: null,
                 assists: null,
-                clean:3
+                clean:4
         },
 
 
@@ -127,7 +127,7 @@ export const stats = {
                 p_name: "Nicolas",
                 image: indaias, 
                 goals: 2,
-                assists: 1
+                assists: 11
         },
 
         13:{
@@ -224,15 +224,15 @@ export const stats = {
         26:{
                 p_name: "Arthur",
                 image: arthur, 
-                goals: 2,
-                assists: 1
+                goals: 4,
+                assists: 5
         },
 
         27:{
                 p_name: "Clovis",
                 image: clovis, 
                 goals: 5,
-                assists: 0
+                assists: 1
         },
 
         28:{
@@ -245,15 +245,15 @@ export const stats = {
         29:{
                 p_name: "Feijó",
                 image: feijo, 
-                goals: 3,
+                goals: 4,
                 assists: 0
         },
 
         30:{
                 p_name: "Felipe",
                 image: felipao, 
-                goals: 10,
-                assists: 2
+                goals: 14,
+                assists: 4
         },
 
         31:{
@@ -267,7 +267,7 @@ export const stats = {
                 p_name: "Renan",
                 image: renan, 
                 goals: 4,
-                assists: 4
+                assists: 5
         },
 
         33:{

@@ -10,6 +10,8 @@ import br from "./photos/IMG_7813.jpeg";
 import rd from "./photos/IMG_7809.jpeg";
 import rh from "./photos/IMG_7812.jpeg";
 import al from "./photos/PHOTO-2023-04-19-12-48-26.jpeg";
+import mg from "./photos/IMG_8239.JPG";
+import fr from "./photos/IMG_8241.JPG";
 
 export let midia = [
     {
@@ -94,6 +96,20 @@ export let midia = [
         link: "https://app.veo.co/matches/20230418-lca-vs-alta-96bf8191/",
         image: al,
         jv: "https://app.veo.co/matches/20230419-jv-lca-vs-alta-927ed229/"
+    },
+
+    {
+        caption:"LCA x Morgan",
+        link: "https://app.veo.co/matches/20230420-lca-vs-morgan-33358971/",
+        image: mg,
+        jv: "https://app.veo.co/matches/20230421-jv-lca-x-morgan-93e6c27d/"
+    },
+
+    {
+        caption:"LCA x LCA USSA (Friendly)",
+        link: "https://app.veo.co/matches/20230503-lca-training-vs-ussa-5344cf92/",
+        image: fr,
+        jv: ""
     },
 
 
